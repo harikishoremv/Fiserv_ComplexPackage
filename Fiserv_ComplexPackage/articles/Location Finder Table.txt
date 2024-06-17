@@ -1,0 +1,62 @@
+﻿<table class="Location-Finder-Table responsivezoom" id="locations-finder-data-table">
+<thead>
+<tr>
+<th>image</th>
+<th>name</th>
+<th>streetAddress</th>
+<th>addressLocality</th>
+<th>addressRegion</th>
+<th>postalCode</th>
+<th>telephone</th>
+<th>description</th>
+<th>latitude</th>
+<th>longitude</th>
+<th>locationType</th>
+<th>color</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Location/Table-Location-1.2.0/images/location.svg"></td>
+<td>Willamette Valley Bank</td>
+<td>1970 SE, 14th Ave SE</td>
+<td>Albany</td>
+<td>OR</td>
+<td>97322</td>
+<td>(555) 555-5555</td>
+<td><p><strong>Lobby</strong><br>Regular business hours.<br></p><p><a href="#" class="Button1">Hours &amp; More Info</a></p></td>
+<td>44.628570</td>
+<td>-123.079490</td>
+<td>Bank</td>
+<td>#ff6600</td>
+</tr>
+<tr>
+<td><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Location/Table-Location-1.2.0/images/location.svg"></td>
+<td>Springfield - Operations Center</td>
+<td>218 S. Glenstone</td>
+<td>Springfield</td>
+<td>MO</td>
+<td>65802</td>
+<td>(417) 895-5234</td>
+<td><p><strong>Lobby</strong><br>Regular business hours.<br></p><p><a href="#" class="Button1">Hours &amp; More Info</a></p></td>
+<td>37.20813694136932</td>
+<td>-93.26186868147346</td>
+<td>Bank</td>
+<td>#ff6600</td>
+</tr>
+<tr>
+<td><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Location/Table-Location-1.2.0/images/location.svg"></td>
+<td>Great Southern Bank ATM</td>
+<td>3351 E. Sunshine</td>
+<td>Springfield</td>
+<td>MO</td>
+<td>65804</td>
+<td>(800) 749-7113</td>
+<td></td>
+<td>37.1807942</td>
+<td>-93.2264205</td>
+<td>ATM</td>
+<td>#2e8bc9</td>
+</tr>
+</tbody>
+</table>

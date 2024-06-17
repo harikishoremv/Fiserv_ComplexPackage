@@ -1,0 +1,174 @@
+﻿<table class="Subsection-Table-Text-Left"
+    style="background-image: url(https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.2.0/images/background-family-in-park.jpg);">
+    <tbody>
+        <tr>
+            <td>
+                <h1>Locations</h1>
+                <p>We have four&nbsp;locations serving southeastern Wisconsin. Find your local branch
+                    and visit us today.</p>                       
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="Subsection-Table">
+    <tbody>
+        <tr>
+            <td>
+                <table class="Table-Grid-Half-Panel">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h2><a id="Brookfield"></a>Brookfield</h2>
+                                <p><strong>Address</strong><br />1000 Route&nbsp;100<br />Brookfield, WI&nbsp;12345</p>
+                                <p><strong>Telephone</strong><br /><a href="tel:+11234567890">123-456-7890</a></p>
+                                <p><a class="Button1" href="speedbump.aspx?link=https://goo.gl/maps/xPCaD3q3odjppWKv7"
+                                        target="_blank">Directions</a></p>
+                                <h4>Lobby Hours</h4>
+                                <table class="Table-Simple" style="width: 100%;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%">Monday - Friday</td>
+                                            <td>9:00am - 4:00pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%">Saturday</td>
+                                            <td>9:00am - 12:00pm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h4>Drive-Up Hours</h4>
+                                <table class="Table-Simple" style="width: 100%;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%">Monday - Friday</td>
+                                            <td>
+                                                <p>9:00am - 5:00pm</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Saturday</p>
+                                            </td>
+                                            <td>
+                                                <p>9:00am - 12:00pm</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>ATM Available</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2><a id="Elm-Grove"></a>Elm Grove</h2>
+                                <p><strong>Address</strong><br />1000 Route&nbsp;100<br />Elm Grove, WI&nbsp;12345</p>
+                                <p><strong>Telephone</strong><br /><a href="tel:+11234567890">123-456-7890</a></p>
+                                <p><a class="Button1" href="speedbump.aspx?link=https://goo.gl/maps/xPCaD3q3odjppWKv7"
+                                        target="_blank">Directions</a></p>
+                                <h4>Lobby Hours</h4>
+                                <table class="Table-Simple" style="width: 100%;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%">Monday - Friday</td>
+                                            <td>9:00am - 4:00pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%">Saturday</td>
+                                            <td>9:00am - 12:00pm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h4>Drive-Up Hours</h4>
+                                <table class="Table-Simple" style="width: 100%;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%">Monday - Friday</td>
+                                            <td>
+                                                <p>9:00am - 5:00pm</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Saturday</p>
+                                            </td>
+                                            <td>
+                                                <p>9:00am - 12:00pm</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>ATM Available</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2><a id="West-Milwaukee"></a>West Milwaukee</h2>
+                                <p><strong>Address</strong><br />1000 Route&nbsp;100<br />West Milwaukee, WI&nbsp;12345
+                                </p>
+                                <p><strong>Telephone</strong><br /><a href="tel:+11234567890">123-456-7890</a></p>
+                                <p><a class="Button1" href="speedbump.aspx?link=https://goo.gl/maps/xPCaD3q3odjppWKv7"
+                                        target="_blank">Directions</a></p>
+                                <h4>Lobby Hours</h4>
+                                <table class="Table-Simple" style="width: 100%;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%">Monday - Friday</td>
+                                            <td>9:00am - 4:00pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%">Saturday</td>
+                                            <td>9:00am - 12:00pm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>ATM Available</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2><a id="Greenfield"></a>Greenfield</h2>
+                                <p><strong>Address</strong><br />1000 Route&nbsp;100<br />Greenfield, WI&nbsp;12345</p>
+                                <p><strong>Telephone</strong><br /><a href="tel:+11234567890">123-456-7890</a></p>
+                                <p><a class="Button1" href="speedbump.aspx?link=https://goo.gl/maps/xPCaD3q3odjppWKv7"
+                                        target="_blank">Directions</a></p>
+                                <h4>Lobby Hours</h4>
+                                <table class="Table-Simple" style="width: 100%;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%">Monday - Friday</td>
+                                            <td>9:00am - 4:00pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%">Saturday</td>
+                                            <td>9:00am - 12:00pm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h4>Drive-Up Hours</h4>
+                                <table class="Table-Simple" style="width: 100%;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%">Monday - Friday</td>
+                                            <td>
+                                                <p>9:00am - 5:00pm</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Saturday</p>
+                                            </td>
+                                            <td>
+                                                <p>9:00am - 12:00pm</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>ATM Available</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>

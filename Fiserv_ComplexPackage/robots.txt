@@ -1,0 +1,37 @@
+# www.robotstxt.org/
+
+# Allow crawling of all content
+User-agent: *
+Disallow: /Test-Home.aspx
+Disallow: /Test-Home
+Disallow: /Dev-Content-Guide.aspx
+Disallow: /Content-Guide.aspx
+Disallow: /Content-Guide
+Disallow: /Sample-Style.aspx
+Disallow: /Sample-Style
+Disallow: /healthcheck.html
+
+# Dev Content Guide 1.0.1 by Jesse Fowler, Copyright 2020 Fiserv. All rights reserved. 
+User-agent: *
+Disallow: /Dev-*
+Disallow: /dev-*
+
+# Speedbump 2.2.0 by Jesse Fowler, Copyright 2018 Fiserv. All rights reserved. 
+Disallow: /Speedbump.aspx
+Disallow: /Mailbump.aspx
+
+# Sample Pages 1.3.0 by Kristen Rogers, Copyright 2023 Fiserv. All rights reserved. 
+Disallow: /Sample-Contact-Us
+Disallow: /Sample-Education-Center
+Disallow: /Sample-Locations-with-Images
+Disallow: /Sample-Locations-without-Images
+Disallow: /Sample-News-Events
+Disallow: /Sample-Style-Image-Half-Sections
+Disallow: /Sample-Style-Image-Sections
+Disallow: /Sample-Style-No-Images
+Disallow: /Sample-Team
+Disallow: /Panel-Navigation-for-Sample-Pages
+Disallow: /Sample-Terms-of-Use
+
+
+

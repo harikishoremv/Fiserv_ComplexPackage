@@ -1,0 +1,37 @@
+﻿<table class="Subsection-Table-Text-Left"
+    style="background-image: url(https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.2.0/images/background-laptop-book.jpg);">
+    <tbody>
+        <tr>
+            <td>              
+                <h1>Education Center</h1>
+                <p>Learn all about our digital banking solutions, online security and tips for your
+                    financial well-being.</p>                           
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="Subsection-Table">
+    <tbody>
+        <tr>
+            <td>
+                <h2>Personal Banking Videos</h2>
+                <table style="width: 100%;" class="Table-Grid-Thirds-Team-Panel">
+                    <tbody>
+                        <tr>
+                            <td><img src="https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.1.0/images/image-education-center-1.jpg" alt="Education Center Video 1"
+                                    border="0" /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.1.0/images/image-education-center-2.jpg" alt="Education Center Video 2"
+                                    border="0" /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.1.0/images/image-education-center-3.jpg" alt="Education Center Video 3"
+                                    border="0" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>

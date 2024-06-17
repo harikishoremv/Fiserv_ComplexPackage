@@ -1,0 +1,73 @@
+﻿<table class="Subsection-Table-Text-Left" style="background-image: url(https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.2.0/images/background-woman-smiling.jpg);">
+    <tbody>
+        <tr>
+            <td>
+                <h1>Savings Accounts</h1>
+                <p>We offer a variety of personal savings accounts. Take a look at the features and choose the one that best fits your needs.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="Subsection-Table">
+    <tbody>
+        <tr>
+            <td>
+                <h2>Statement Savings</h2>
+                <p>Need your funds readily available? You don&rsquo;t have to sacrifice earning potential. Our Statement Savings Account offers an attractive variable annual percentage yield. Flexibility and convenience rolled into one product makes it perfect for meeting your individual goals.</p>
+                <ul>
+                    <li>$100 Minimum to open</li>
+                    <li>$2.00 monthly maintenance fee if the balance falls below $100 any day of the statement cycle</li>
+                    <li>Earn interest on balances of $100 or more</li>
+                    <li>Free Online Banking</li>
+                    <li>Free eStatements</li>
+                </ul>
+                <p><a href="Sample-Rates" class="Button1">View Rates</a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="Subsection-Table">
+    <tbody>
+        <tr>
+            <td>
+                <h2>Passbook Savings</h2>
+                <ul>
+                    <li>$100 Minimum to open</li>
+                    <li>$2.00 monthly maintenance fee if the balance falls below $100 any day of the statement cycle</li>
+                    <li>Earn interest on balances of $100 or more</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="Subsection-Table-Text-Left" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.2.0/images/background-woman-dog-laptop.jpg');">
+    <tbody>
+        <tr>
+            <td>
+                <h2>Certificates of Deposit</h2>
+                <p>For a secure, guaranteed investment, open a CD and enjoy the peace of mind of earning a fixed rate of return on your money.</p>
+                <ul>
+                    <li>Minimum Balances as low as $250 on some terms</li>
+                    <li>Choose from terms ranging from 3 months to 10 years</li>
+                </ul>
+                <p><a href="#" class="Button1">CD Rates</a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="Subsection-Table-Text-Right" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.2.0/images/background-couple-on-beach-text-right.jpg');">
+    <tbody>
+        <tr>
+            <td>
+                <h2>IRAs (Individual Retirement Accounts)</h2>
+                <p>Including a fixed source of income is a great way to help save for your retirement, and an IRA CD can enhance your retirement plan.</p>
+                <ul>
+                    <li>Choose from Traditional or Roth IRAs</li>
+                    <li>Open a new IRA or roll funds over from an existing retirement account or qualified employer plan</li>
+                    <li>Choose from terms ranging from 6 months to 5 years</li>
+                </ul>
+                <p><a href="#" class="Button1">IRA Rates</a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>

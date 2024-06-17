@@ -1,0 +1,167 @@
+<table class="Subsection-Table-Text-Left" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-2.0.0/images/bg-sample-01.jpg');">
+	<tbody>
+		<tr>
+			<td>
+				<h1>Checking Accounts</h1>
+				<p>We offer a variety of personal checking accounts.  Take a look at the features and choose the one that best fits your needs.</p>
+				<p><a href="#Compare-Accounts" class="Button1">Compare Accounts</a><a href="Contact-Us" class="Button2">Contact us</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2>All of our Personal Checking Accounts include:</h2>
+				<ul class="List-Checkmark">
+					<li>Free Online Banking</li>
+					<li>Free Bill Pay</li>
+					<li>Free Mobile Banking</li>
+					<li>Free eStatements</li>
+					<li>Unlimited Check Writing</li>
+				</ul>
+				<p>Take a look at our <a href="#Compare-Accounts">Comparison Chart</a> for a side by side view.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Free Checking</h2>
+				<p>Enjoy the advantages of our FREE checking account option with no minimum balance or monthly service fee.</p>
+				<h3>Account Details</h3>
+				<ul>
+					<li>Minimum Opening Deposit: $100</li>
+					<li>No Monthly Charges</li>									
+					<li>No minimum balance</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2><a id="Compare-Accounts"></a>Personal Checking Accounts Comparison Chart</h2>				
+				<table class="Table-Product" style="width: 100%;">
+				<thead>
+				<tr><th width="20%">Product</th><th width="20%">Free Checking</th><th width="20%">
+				<p>Gen Gold* Checking</p>
+				</th><th width="20%">Ultimate Interest Checking</th></tr>
+				</thead>
+				<tbody>
+				<tr>
+				<td>Description</td>
+				<td>
+				<p>Clients with very low volume levels and limited checking needs.</p>
+				</td>
+				<td>
+				<p>Clients with low volume and would like to earn interest.</p>
+				</td>
+				<td>
+				<p>Clients who have a growing business with a moderate level of account activity.</p>
+				</td>
+				</tr>
+				<tr>
+				<td>Minimum to Open</td>
+				<td>$100</td>
+				<td>$100</td>
+				<td>$100</td>
+				</tr>
+				<tr>
+				<td>Interest Bearing</td>
+				<td>No</td>
+				<td>No</td>
+				<td>On daily balances of $1000 or more</td>
+				</tr>
+				<tr>
+				<td>
+				<p>Monthly Fee</p>
+				</td>
+				<td>
+				<p>None</p>
+				</td>
+				<td>
+				<p>$16</p>
+				</td>
+				<td>
+				<p>$25</p>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<p>Balance to Avoid Fee</p>
+				</td>
+				<td>
+				<p>X</p>
+				</td>
+				<td>
+				<p>X</p>
+				</td>
+				<td>
+				<p>X</p>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<p>Activity Fees</p>
+				</td>
+				<td>
+				<ul>
+				<li>$6.00 per month</li>
+				<li>$0.50 for each deposit</li>
+				<li>$0.15 for each check paid</li>
+				</ul>
+				</td>
+				<td>
+				<ul>
+				<li>
+				<p>$6.00 per month</p>
+				</li>
+				<li>
+				<p>$0.50 for each deposit</p>
+				</li>
+				<li>
+				<p>$0.15 for each check paid</p>
+				</li>
+				</ul>
+				</td>
+				<td data-title="Ultimate Interest Checking">
+				<p>After 300 transactions, a $0.50 fee is assessed for each succeeding transaction</p>
+				<ol>
+				<li>list 1</li>
+				<li>list 2</li>
+				</ol></td>
+				</tr>
+				</tbody>
+				</table>
+				<p class="Disclaimer">Bill Pay is not available to anyone under the age of 18.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<a href="inc_anniversary-badge.aspx" class="Include-Anniversary-Badge">Anniversary Badge</a>
+        <table class="Subsection-Table">
+			<tbody>
+    			<tr>
+					<td>
+<h2>Count Up Example</h2>
+<p>The following number will count up when it comes into view.</p>
+<p>You can change the number just do not remove the 'id' on the 'span' element.</p>
+<p><span id="animate-number-1" class="animate-number">120</span> years of service.<p>
+<p><span id="animate-number-2" class="animate-number">6.5</span>% APR Car loan.<p>
+<p>$<span id="animate-number-3" class="animate-number">100000</span> donated this year.<p>
+
+<a href="html/table.txt" class="Include-Staff-Table">Staff Table</a>
+					</td>
+				</tr>	
+			</tbody>
+		</table>

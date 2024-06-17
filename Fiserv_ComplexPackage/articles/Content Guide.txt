@@ -1,0 +1,2269 @@
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<h2><a id="Language-Contet"></a>Language Content</h2>
+								<p>This site includes a language selector on each page that controls the language that is visible at any given time. The enhancement is programmed to detect the users default language and the enhancement will automatically load the content relating to that language upon initial visit to the site. The user is always able to switch languages on any page at any time and the content will switch to the chosen language and keep that selection saved on the visitors machine to apply when the site is visited again.</p>
+								<p>The enhancement uses a series of preset classes to apply lang attributes to sections of content within the site. This enables search engines and screen readers to identify and index content appropriately as well as for the selected language content to show to the visitor. Language classes are case sensitive. Use the CMS drop down to apply the class.</p>
+								<p>The CMS is set up to show a small language indicator box in the upper left corner of the section as well as outline the area that is contained within that language class. These markings will not show up on the main site. They are for your reference and to assist when formatting or editing content.</p>
+								<h3>Subsection Tagging</h3>
+								<p>The site is currently set up using a single cell table that wraps all of the content with a particular language together. There is then a language class that is applied to the wrapper table. All language versions of the page are in the same article.</p>
+								<p>If a section shows for ALL languages, do not apply a wrapper table or any language class to that section. This will allow the same section to show on ALL language versions of the page.</p>
+								<h3>Element Tagging</h3>
+								<p>Elements, headlines, paragraphs, images, lists, tables, etc can also be classed with language classes to control their view. Only use element tagging if the outer most table or wrapper is not being used with a language class.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Text-Left" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-4.1.0/images/bg-sample-01.jpg');">
+	<tbody>
+		<tr>
+			<td>
+				<h1>Content Guide</h1>
+				<p>Your one-stop resource for implementing content successfully within your website.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td><h2>Table of Contents</h2>
+				<table width="100%">
+					<tbody>
+						<tr>
+							<td width="50%">
+                                <h3><a href="#Formatting-and-Linking">Formatting and Linking</a></h3>
+								<ul>
+									<li>Headings</li>
+									<li>Un-ordered/Ordered Lists</li>
+									<li>Add a Blockquote</li>
+									<li>Creating Pages</li>
+									<li>Creating Links</li>									
+								</ul>
+								<h3><a href="#Applying-Classes">Applying Classes</a></h3>
+								<ul>
+									<li>Structure Classes</li>
+									<li>Buttons</li>
+									<li>Disclaimer Class</li>
+									<li>List-Checkmark</li>
+									<li>List-No-Marker</li>
+									<li>Additional "List-" Options</li>
+									<li>Image Classes</li>
+								</ul>
+								<h3><a href="#Homepage-Content">Homepage Content</a></h3>
+								<ul>
+									<li>Test-Homepage</li>
+									<li>Table-Notice</li>
+								</ul>
+								<h3><a href="#Image-Guide-Overlays">Image Guide Overlays</a></h3>
+								<ul>									
+									<li>Image Guide Overlay</li>
+									<li>Image Full Height Guide Overlay</li>
+									<li>Image Half Guide Overlay
+									<li>Image Half Full Height Guide Overlay
+								</ul>									
+							</td>
+							<td>
+								<h3>Table Styling</h3>
+								<h4><a href="#Table-Classes">General Data Content</a></h4>
+								<ul>
+									<li>Table-Style</li>
+									<li>Table-Product</li>
+									<li>Table-Simple</li>
+									<li>Table-Disclaimer</li>
+									<li>Table-List</li>
+								</ul>
+								<h4><a href="#Structural-Content">Structural Content</a></h4>
+								<ul>
+									<li>Intro Section</li>
+									<li>Features Section</li>
+									<li>Normal Section</li>
+									<li>Subsection-Table</li>
+									<li>Subsection-Table-Text-Right</li>
+									<li>Subsection-Table-Text-Left</li>
+									<li>Subsection-Table-Text-Left-Full-Height</li>
+									<li>Subsection-Table-Text-Left-Panel</li>
+									<li>Subsection-Table-Text-Right-Half</li>
+									<li>Subsection-Table-Text-Left-Half-Full-Height</li>
+									<li>Subsection-Table-Color1</li>
+									<li>Subsection-Table-Text-Right-Color2</li>
+									<li>Subsection-Table-Text-Left-Color1-Full-Height</li>
+									<li>Subsection-Table-Navigation</li>
+								</ul>
+							</td>
+						</tr>
+					</tbody>
+				</table>			
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table-Color1">
+<tbody>
+<tr>
+<td>
+<h2>CMS Training Series Videos</h2>
+<p>Watch videos to help navigate and modify content within our Content Management System.</p>
+<p><a href=https://www.webdesign.fiserv.com/training" class="Button2">Get Started <strong><em>and watch the CMS Training Videos</em></strong></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2><a id="Formatting-and-Linking"></a>Formatting and Linking</h2>
+				<h3>Headings</h3>
+				<p>Headings are used to organize the content on your page.&nbsp; To follow proper guidelines for websites and accessibility, there should only be one Heading One on the page, at the very top of the page.&nbsp; The headings below should follow an outline style of organization.&nbsp; All Heading Two headings should support the Heading One, and all Heading Three headings should support the Heading Two, and so on.</p>
+		<p>Heading styles should not be used for visual emphasis, but only for separating out content on the page.&nbsp; If you have a specific need to emphasize a certain piece of content, contact your Technical Consultant with Web Services or put in a service request via the Hosting Tool to have the styling added to your style sheet appropriately.</p>
+				<h3>Sample Headings</h3>
+				<hr>
+				<h2>Heading Two</h2>			
+				<h3>Heading Three</h3>
+				<h4>Heading Four</h4>
+				<h5>Heading Five</h5>
+				<hr>
+				<h3>Applying a Heading</h3>
+				<p>To apply a heading, first type the heading text.&nbsp; Then with your cursor within the text, choose 'Format' from the menu above, then choose 'Heading' and select the appropriate heading.</p>
+				<p>Please note, the heading will apply to the entire&nbsp;paragraph that does not have a full break in between.&nbsp; Headings cannot be inline with other text.</p>
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td>
+								<h3>Un-ordered List</h3>
+								<p>Creating lists is very similar to doing so in other text editors.&nbsp; Choose the 'Bulleted List' or 'Ordered List' button in the icon menu above.</p>
+								<ul>
+									<li>
+										<p>List Item 1</p>
+									</li>
+									<li>
+										<p>List Item 2</p>
+									</li>
+									<li>
+										<p>List Item 3</p>
+										<ul>
+											<li>
+												<p>Sub list 1</p>
+											</li>
+											<li>
+												<p>Sub list 2</p>
+											</li>
+											<li>
+												<p>Sub list 3</p>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<p>List Item 4</p>
+									</li>
+									<li>
+										<p>List Item 5</p>
+									</li>
+								</ul>
+							</td>
+							<td>
+								<h3>Ordered List</h3>
+								<p>You may type out the options, select them all and then click the menu item, or you may choose the menu item and then start typing your list.</p>
+								<ol>
+									<li>
+										<p>List item 1</p>
+									</li>
+									<li>
+										<p>List item 2</p>
+									</li>
+									<li>
+										<p>List item 3</p>
+										<ol>
+											<li>
+												<p>Sub list a</p>
+											</li>
+											<li>
+												<p>Sub list b</p>
+											</li>
+											<li>
+												<p>Sub list c</p>
+											</li>
+										</ol>
+									</li>
+									<li>
+										<p>List item 4</p>
+									</li>
+									<li>
+										<p>List item 5</p>
+									</li>
+								</ol>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+										<h3>Add a Blockquote</h3>
+										<p>The content below shows a sample of the default blockquote styling. This is great to breakout and highlight a specific quote on a page.</p>
+
+						<table>
+<tbody>
+<tr>
+<td style="width: 50%;">
+<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ultrices risus. Morbi accumsan faucibus porta. Maecenas luctus, purus at consectetur dignissim, leo est lacinia massa, eu dictum turpis tortor vitae neque. Donec at nisi rhoncus, cursus neque in, elementum leo.&nbsp;<strong>John Doe<br /><em>Business, Title</em><br /></strong></blockquote>
+</td>
+<td>
+<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ultrices risus. Morbi accumsan faucibus porta. Maecenas luctus, purus at consectetur dignissim, leo est lacinia massa, eu dictum turpis tortor vitae neque. Donec at nisi rhoncus, cursus neque in, elementum leo.&nbsp;<strong>First Last Name<em>Subheading</em><br /></strong></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+<h4>Creating the Blockquote</h4> 
+<ol>
+<li>Select the text you would like to apply a blockquote with the cursor</li>
+<li>Using the menu, select Format &gt; Formats &gt; Blocks &gt; Blockquote</li>
+<li>At the end of the text that is now your blockquote, type:&nbsp; "Name Subheading" (without quotations).<ol>
+<li>A subheading is optional.&nbsp; Only the name is needed.</li>
+</ol></li>
+<li>Select the text "Name Subheading" and apply the bold styling (<strong>B</strong>&nbsp;- quick menu above).<ol>
+<li>This will move the "Name Subheading" text where it needs to be.</li>
+</ol></li>
+<li>Select "Subheading" and apply the italics styling (<em><strong>I</strong></em> - quick menu above)<ol>
+<li>This will move the subheading below the name.</li>
+</ol></li>
+</ol>
+				<p><a href="#Applying-Classes" class="Button1">More formatting options</a></p>
+				<h3>Creating New Pages</h3>
+				<p>The CMS is set up to allow you to create and link* to new pages as needed. Within the CMS pages on your website are referred to as 'Articles' and it is possible to have more than one article per page. A good example of this is the homepage.</p>
+				<p>When creating articles try to keep the name a short description of the page. The name you choose will become the URL for the page and will be used in search engine results. Article names should not use any special characters, the name should be text only.</p>
+				<p class="Disclaimer">*Please Note: If you need one of the new pages you created linked within your shell navigation, Fiserv will have to make the update for you. You can request this by placing service request via the <a href="https://www.fiserv-ecomhosting.com/logon.asp" target="_blank">Hosting Tool</a>.</p>
+				<h3>Creating Links</h3>
+				<p>You can create a link to another page, a document, or an outside website from within the editor.</p>
+				<h4>Linking to other pages</h4>
+				<p>To create a link, first type the text you would like to be linked, highlight the text, then choose the 'Insert/Edit Link' from the icon menu above.&nbsp;&nbsp;</p>
+				<p>Within the dialog box,&nbsp;use the article name with dashes in place of spaces for the URL field in the 'Insert/Edit Link' dialog box.&nbsp; For example, an article named 'Business Online Banking' would be '<a href="Business-Online-Banking">Business-Online-Banking</a>' when used in the URL field.&nbsp;&nbsp;You may also adjust the text that will be displayed and add classes as appropriate from the dialog box.</p>
+				<p>Refer to the <a href="#Buttons">Adding Classes section > Buttons</a> to create a button link.</p>
+				<h4>Linking to Documents</h4>
+				<p>When linking to documents, you must first insert the document into the editor.&nbsp; To do this, choose the 'Insert' drop down option from the menu above and choose 'Insert Document.'&nbsp; This will show a list of all the documents that have been uploaded to the CMS in alphabetical order.&nbsp;&nbsp;</p>
+				<p>Once you have chosen a document, highlight the text, then choose 'Insert/Edit Link' from the icon menu.&nbsp; Here you can change the text to be displayed.&nbsp; It is also recommended to have documents open in a new window, which you can adjust using the 'Target' drop down box.</p>
+				<h4>Anchor Tags</h4>
+				<p>You can place what is called an 'Anchor Tag' within your content that indicates a specific landing spot on the page.&nbsp; This could be used when linking from another page to go to a specific checking product or rates table. These are best placed with Heading tags.&nbsp; To include this feature, place your cursor at the beginning of the Heading and choose 'Insert' &gt; 'Anchor' from the menu above.&nbsp; The name should be short and descriptive and should not contain spaces.</p>
+				<p>When linking to the anchor, you will use the pound/hashtag symbol before the name of the anchor in the URL field in the 'Insert/Edit Link' dialog box. <em>EX:&nbsp; #Anchor-Tags</em> If you are linking from a different page than the one the anchor is located in, you would put the page name first. <em>EX: Sample-Style#Anchor-Tags</em>. Please note:&nbsp; Anchor tags are case sensitive so make sure the anchor and the link match exactly.</p>
+				<p><a href="#Table-Classes" class="Button2">Example Anchor Link</a></p>
+								<h4><a id="External-Link-Icon"></a>Automatic External Link Icon</h4>
+                        <p>All <a href="http://www.webdesign.fiserv.com/">external links</a> will automatically apply an icon to better communicate links leaving your website.</p>
+				        <p><a href="http://www.webdesign.fiserv.com/" class="Button1">External Site</a></p>
+                        <p><strong>An accidental internal link that includes the URL:</strong> <a href="https://whstage1.secureinternetbank.com">Staging URL Test</a>. This will communicate that you will need to change the link to the internal page.</p>
+                       <p><strong>Links excluded from adding the external link icon</strong></p>
+                        <ul>
+							<li>Links with a <a href="speedbump.aspx?link=https://www.google.com/">Speedbump</a>
+								<ul>
+									<li>The actual external link icon will apply to the button, within the speedbump disclaimer page.</li>
+									<li>The external link icon is a visual indicator/speedbump that the link's destination is not part of your site. It is best for usability to only have the icon appear when you are leaving the site and not just navigating to another internal page.</li>
+								</ul>
+							</li>
+                            <li>Online Banking links
+                                <ul>
+                                    <li>Retail OB: <a href="https://idemo.secureinternetbank.com/pbi_pbi1151/Enroll/199999996">Enroll</a> | <a href="https://idemo.secureinternetbank.com/pbi_pbi1151/Enroll/199999996">Password Help</a></li>
+                                    <li>Business OB: <a href="https://web2.secureinternetbank.com/ebc_ebc1151/Forgotpassword/199999996">Password Help</a></li>
+                                </ul></li>
+                            <li><a href="https://secureforms.c3vault1.com/forms/fiserv">Live Secure Forms</a> | <a href="https://whstage1.secureinternetbank.com/secureforms/forms/fiserv">Staging Secure Forms</a></li>
+							<li>Links that already have icons
+								<ul>
+									<li><a href="https://www.google.com/" class="fa-phone">FontAwesome Icon</a></li>
+									<li><a href="https://www.google.com/" class="icon-business">Custom Icon</a></li>
+								</ul>
+							</li>
+						</ul>
+						<h3>Link Phone Numbers for click to call</h3>
+						<p>While some mobile browsers will automatically detect phone numbers and convert them to links, we recommend always adding hyperlinks to be safe.  By default, your website will visually hide the styling of the link for desktop users and only display the link on a mobile device.</p>
+						<h4>Example link formatting</h4>
+						<p>To mark a phone number as a link, use <strong>tel:</strong> followed by the number using the format below, within the URL field of the link popup box:</p>
+						<ul>
+							<li>Use a plus sign "+" and a 1 and then the area code, followed by the number; <em><strong>tel:+13335555555</strong></em>
+							<ul>
+								<li><a href="tel:+13335555555">333-555-5555</a></li>
+							</ul>							
+						</ul>
+						<h4>What does the +1 mean in front of the phone number?</h4>
+						<p>The plus sign “+”, signifies the international dialing prefix, "1" indicates the country code, in this case USA.</p>
+						<p>Having the number with the "+" format allows you to call that number worldwide without having to remember the unique international numerical dialing prefix.</p>
+
+
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2><a id="Applying-Classes"></a>Applying Classes</h2>
+				<p>Classes are what are used to apply special styling to different elements of your website. </p>
+				<h3>Structure Classes</h3>
+				<p>Examples of all of the tables noted are shown within the content below.</p>
+				<h4>Subsection Tables</h4>
+				<p>The main content of your website must be placed in an outer table with the table class of 'Subsection-Table.'</p>
+				<h4>Subsection Image Tables</h4>
+				<p>To create a subsection that has an image in the background, create a table with the class of 'Subsection-Table' and in the table properties dialog box select the background image you would like to use. Place content into the single table cell. If you would like the content to be on the left side to allow the image to be visible on the right, select the class 'Subsection-Table-Text-Left.' This will alter the styling accordingly. Refer to the <a href="#Structural-Content">Structural Content</a> section for examples.</p>
+				<p>You may have as many 'Subsection-Table' classes with or without backgrounds in any order on the page as you wish.</p>
+				<p class="Missing">Include any additional Subsection classes here.</p>
+				<h3><a id="Buttons"></a>Buttons</h3>
+				<p>To apply these classes, select the text you would like to be linked and choose the 'Insert/Edit Link' button in the icon menu above. Then choose 'Button1' or 'Button2' in the class list. Buttons should be within their own paragraph and not within a sentence.</p>
+				<p><a href="#" class="Button1">Button1</a>&nbsp;<a href="#" class="Button2">Button2</a></p>
+				<h4>Buttons & Accessibility</h4>
+				<p>It's a good standard process to describe to your viewers where the link will take them.  Ask yourself, "If there was only a button available without any supporting text, would the viewer know where the button will take them?"  This helps screen readers and accessibility.</p>
+				<p>A common button phrase is "Learn more."  It is better to add what the viewer will be learning more about.  e.g. "Learn more about Online Banking"</p>
+				<p>However adding this much text to a button may not be desired. You can hide the text visually while still retaining the text for screen readers by adding both <strong>bold</strong> and <em>italics</em> to the text you want to hide.</p>
+				<table width="100%">
+				<tbody>
+				<tr>
+				<td width="50%"><p><strong>BEFORE</Strong></p>
+				<p><a href="#" class="Button1">Learn more about Online Banking</a></td>
+				<td><p><strong>AFTER</Strong></p>
+				<p><a href="#" class="Button1">Learn more <strong><em>about Online Banking</em></strong></a></td>
+				</tr>
+				</tbody>
+				</table>
+				<p><strong>Please Note:</strong> This same procedure for hiding text within a button link can also be applied to normal links that you want visibly shorter.</p>
+				<h3>Disclaimer Class</h3>
+				<p>This class is available for disclaimer information throughout your website. It can be applied to a paragraph and will make it a smaller size than other paragraph text. To apply, right click on the paragraph and choose the class "Disclaimer" from the list. Example:</p>
+				<p class="Disclaimer">Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental: in fact, it va esser Occidental. A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es.</p>
+				<h3>List-Checkmark</h3>
+				<p>This class needs to be applied to the un-ordered (bulleted) list, not on the list items. The best way to achieve this is to choose 'ul' from the breadcrumbs in the lower left of the editor frame. This will highlight the entire list. Then right click on the list and choose to add a class of 'List-Checkmark.'</p>
+				<ul class="List-Checkmark">
+					<li>List Item</li>
+					<li>List Item 2</li>
+					<li>List Item 3</li>
+				</ul>
+				<h3>List-Panel & List-Checkmark-Panel</h3>
+				<p>If you would like more emphasis on a list, you can add the "-Panel" variant which adds a background behind each list item.</p>
+				<table width="100%">
+					<tr>
+						<td width="50%">
+							<ul class="List-Panel">
+								<li>List Item with a Panel</li>
+								<li>List Item 2 with a Panel</li>
+								<li>List Item 3 with a Panel</li>
+							</ul>
+						</td>
+						<td>
+							<ul class="List-Checkmark-Panel">
+								<li>List Item Checkmark with a Panel</li>
+								<li>List Item 2 Checkmark with a Panel</li>
+								<li>List Item 3 Checkmark with a Panel3</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+				<h3>List-No-Marker</h3>
+				<p>This class needs to be applied to the un-ordered list, not on the list items. This will allow you to have a list without any markers (bullets, checkmarks etc).  This can be great for a navigation list as illustrated by the <a href="#Subsection-Navigation">Subsection Navigation</a>.</p>
+				<ul class="List-No-Marker">
+					<li>List Item 1</li>
+					<li>List Item 2</li>
+					<li>List Item 3</li>
+				</ul>
+				<h3>Additional "List-" Class Options</h3>
+				<table class="Table-Grid-Thirds">
+					<tr>
+					<td>
+					<h4>List-Location</h4>
+				<ul class="List-Locations">
+					<li>List Location 1</li>
+					<li>List Location 2</li>
+					<li>List Location 3</li>
+				</ul>
+					</td>
+					</tr>
+					<tr>
+					<td>
+					<h4>List-Form</h4>
+				<ul class="List-Form">
+					<li>List Form 1</li>
+					<li>List Form 2</li>
+					<li>List Form 3</li>
+				</ul>
+					</td>
+					</tr>
+					<tr>
+					<td>
+					<h4>List-PDF</h4>
+				<ul class="List-PDF">
+					<li>List PDF 1</li>
+					<li>List PDF 2</li>
+					<li>List PDF 3</li>
+				</ul>
+					</td>
+					</tr>
+				</table>
+				<table class="Table-Grid-Thirds">
+					<tr>
+					<td>
+					<h4>List-Location-Panel</h4>
+				<ul class="List-Locations-Panel">
+					<li>List Location 1 with a Panel</li>
+					<li>List Location 2 with a Panel</li>
+					<li>List Location 3 with a Panel</li>
+				</ul>
+					</td>
+					</tr>
+					<tr>
+					<td>
+					<h4>List-Form-Panel</h4>
+				<ul class="List-Form-Panel">
+					<li>List Form 1 with a Panel</li>
+					<li>List Form 2 with a Panel</li>
+					<li>List Form 3 with a Panel</li>
+				</ul>
+					</td>
+					</tr>
+					<tr>
+					<td>
+					<h4>List-PDF-Panel</h4>
+				<ul class="List-PDF-Panel">
+					<li>List PDF 1 with a Panel</li>
+					<li>List PDF 2 with a Panel</li>
+					<li>List PDF 3 with a Panel</li>
+				</ul>
+					</td>
+					</tr>
+				</table>
+				<h3>Image Classes</h3>
+				<p>For images within the content there are three classes you can use for formatting. 'Float-Left' and 'Float-Right' will allow the image to float within the content in which is is placed. By using one of these classes it will ensure the spacing is correct and will adjust for responsive browser sizes.&nbsp; There is also the class 'Image-Shadow' that will apply a drop shadow to the image when wanted.</p>
+				<p>To apply any of these classes, insert the image you would like to use, then select the image. The 'Insert/Edit Image' icon will be highlighted in the icon menu above and by opening that dialog box you can choose to add a class to the image.</p>
+				<p class="Missing">Include any additional special classes here.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table">
+<tbody>
+	<tr>
+		<td>
+			<h2><a id="Homepage-Content"></a>Homepage Content</h2>
+				<h3>Test Homepage</h3>
+				<p>To help you with editing and formatting for the homepage a <a href="Test-Homepage">Test Homepage</a> has been set up for you.</p>
+				<p class="Missing">Include any special classes that only apply to the homepage here.</p>
+				<h3>Table-Notice</h3>
+				<p>This table is only used for the site notice within the 'Site Notice' article. This will allow you to see the styling for the site notice. Please note: There are maximum heights set on this feature so that the functionality works properly on all sizes of devices.&nbsp; The message placed within this notice should be brief and direct your visitors to another page if more information is needed.</p>
+		</td>
+	</tr>
+</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2><a id="Table-Classes"></a>Table Classes</h2>
+				<p>To apply these classes, insert a table the correct number of rows and columns, then with the cursor inside of the table, right click and choose 'Table Properties' to bring up the dialog box. From there choose the appropriate table class to be applied.</p>
+				<h3>Table-Style class</h3>
+				<p>For this table to format correctly please make sure to style every cell in the header row to cell type of 'Header Cell' and to also style the header row to type of 'Header Row.' To apply these classes, highlight all of the cells in the header row, right click, and choose 'Cell' &gt; 'Cell Properties.' In the dialog box choose 'Header Cell' for the cell type dropdown option. Do the same for the row by choosing 'Row' &gt; 'Row Properties.'</p>
+				<p>Doing this helps to ensure accessibility for screen readers. This table style class should also have the 'Caption' option chosen from the 'Table Properties' box for this reason as well.</p>
+				<table class="Table-Style" style="width: 100%;">
+					<caption>Table-Style class applied to a table</caption>
+					<thead>
+						<tr>
+							<th>
+								<p>Account Type</p>
+							</th>
+							<th>Minimum*</th>
+							<th>Interest Rate</th>
+							<th>APY**</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Free Checking</td>
+							<td>
+								<p>No minimum</p>
+							</td>
+							<td>No interest</td>
+							<td>No interest</td>
+						</tr>
+						<tr>
+							<td>Interest Checking Tier1</td>
+							<td>$ 500.00</td>
+							<td>.15%</td>
+							<td>.15%</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Interest Checking Tier2</p>
+							</td>
+							<td>$2,500.00</td>
+							<td>.24%</td>
+							<td>.25%</td>
+						</tr>
+						<tr>
+							<td>Horizon 50 Tier 1</td>
+							<td>$100.00</td>
+							<td>.20%</td>
+							<td>.20%</td>
+						</tr>
+						<tr>
+							<td>Horizon 50 Tier 2</td>
+							<td>$ 500.00</td>
+							<td>.30%</td>
+							<td>.30%</td>
+						</tr>
+						<tr>
+							<td>Horizon 50 Tier 3</td>
+							<td>$2,500.00</td>
+							<td>.40%</td>
+							<td>.40%</td>
+						</tr>
+						<tr>
+							<td>Platinum Checking</td>
+							<td >$10,000.00</td>
+							<td>.50%</td>
+							<td>.50%</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3>Table-Product Class</h3>
+				<p>For this table to format correctly please make sure to style every cell in the header row to cell type of 'Header Cell' and to also style the header row to type of 'Header Row.' To apply these classes, highlight all of the cells in the header row, right click, and choose 'Cell' &gt; 'Cell Properties.' In the dialog box choose 'Header Cell' for the cell type dropdown option. Do the same for the row by choosing 'Row' &gt; 'Row Properties.' Doing this helps to ensure accessibility for screen readers.</p>
+				<p>For responsive and accessibility purposes please make sure every cell in the table has content within it. This table class should not use the 'Caption' Option, but please ensure there is a heading above the table to clarify what the table is referring to.</p>
+				<table class="Table-Product" style="width: 100%;">
+					<thead>
+						<tr>
+							<th width="20%">Product</th>
+							<th width="20%">Free Checking</th>
+							<th width="20%">
+								<p>Gen Gold* Checking</p>
+							</th>
+							<th width="20%">Ultimate Interest Checking</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Description</td>
+							<td>
+								<p>Clients with very low volume levels and limited checking needs.</p>
+							</td>
+							<td>
+								<p>Clients with low volume and would like to earn interest.</p>
+							</td>
+							<td>
+								<p>Clients who have a growing business with a moderate level of account activity.</p>
+							</td>
+						</tr>
+						<tr>
+							<td>Minimum to Open</td>
+							<td>$100</td>
+							<td>$100</td>
+							<td>$100</td>
+						</tr>
+						<tr>
+							<td>Interest Bearing</td>
+							<td>No</td>
+							<td>No</td>
+							<td>On daily balances of $1000 or more</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Monthly Fee</p>
+							</td>
+							<td>
+								<p>$16</p>
+							</td>
+							<td>
+								<p>$16</p>
+							</td>
+							<td>
+								<p>$25</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Balance to Avoid Fee</p>
+							</td>
+							<td>
+								<p>X</p>
+							</td>
+							<td>
+								<p>X</p>
+							</td>
+							<td>
+								<p>X</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Activity Fees</p>
+							</td>
+							<td>
+								<ul>
+									<li>$6.00 per month</li>
+									<li>$0.50 for each deposit</li>
+									<li>$0.15 for each check paid</li>
+									<li>$0.15 for each ACH credit</li>
+									<li>$0.15 for each ACH debit</li>
+								</ul>
+							</td>
+							<td>
+								<ul>
+									<li>
+										<p>$6.00 per month</p>
+									</li>
+									<li>
+										<p>$0.50 for each deposit</p>
+									</li>
+									<li>
+										<p>$0.15 for each check paid</p>
+									</li>
+									<li>
+										<p>$0.15 for each ACH credit</p>
+									</li>
+									<li>
+										<p>$0.15 for each ACH debit</p>
+									</li>
+								</ul>
+							</td>
+							<td data-title="Ultimate Interest Checking">
+								<p>After 300 transactions, a $0.50 fee is assessed for each succeeding transaction</p>
+								<ol>
+									<li>list 1</li>
+									<li>list 2</li>
+								</ol>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3>Table-Simple</h3>
+				<table style="width: 100%;" class="Table-Simple">
+					<tbody>
+						<tr>
+							<td>Mon - Fri</td>
+							<td>8:30 to 3:00</td>
+						</tr>
+						<tr>
+							<td>Saturday</td>
+							<td>8:30 to noon</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3>Table-Disclaimer</h3>
+				<table class="Table-Disclaimer" style="width: 100%;">
+					<tbody>
+						<tr>
+							<td>Not Insured by FDIC</td>
+							<td>Not Bank Guaranteed</td>
+							<td>May Lose Value</td>
+							<td>Not a Bank Deposit</td>							
+						</tr>
+						<tr>
+							<td colspan="4">Not Insured by Any Federal Government Agency</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3><a id="Table-List"></a>Table-List</h3>
+				<p>Table-List allows you to break up a long list of items into multiple columns that will re-combine into one list when it no longer fits on your device, (e.g. smartphone view). This is different than a normal table that won't have equal spacing and will not combine your list into one.</p>
+				<p>Please note: You can break up your lists with headings as well shown below in the <a href="#Subsection-Navigation">Subsection Navigation</a> example.</p>
+				<table class="Table-List">
+					<tbody>
+						<tr>
+							<td>
+								<ul>
+									<li>Location 1</li>
+									<li>Location 2</li>
+									<li>Location 3</li>
+									<li>Location 4</li>
+									<li>Location 5</li>
+									<li>Location 6</li>
+									<li>Location 7</li>
+									<li>Location 8</li>
+								</ul>
+							</td>
+							<td>
+								<ul>
+									<li>Location 9</li>
+									<li>Location 10</li>
+									<li>Location 11</li>
+									<li>Location 12</li>
+									<li>Location 13</li>
+									<li>Location 14</li>
+									<li>Location 15</li>
+									<li>Location 16</li>
+								</ul>
+							</td>		
+						</tr>						
+					</tbody>
+				</table>
+				<h3>Additional Table Classes</h3>
+				<p class="Missing">Include any additional special table classes here.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Text-Left" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-2.0.0/images/bg-sample-01.jpg');">
+	<tbody>
+		<tr>
+			<td>
+				<h1><a id="Structural-Content"></a>Checking Accounts</h1>
+				<p>We offer a variety of personal checking accounts.  Take a look at the features and choose the one that best fits your needs.</p>
+				<p><a href="#Compare-Accounts" class="Button1">Compare Accounts</a><a href="Contact-Us" class="Button2">Contact us</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Subsection Intro</h2>								
+				<p>Your first section should include a title of the page as a heading 1.  If a subsection with an image is used (optional), add a short description about the content of the page as an introduction. The amount of the image shown and height of this first photo section will depend on the height of this content.</p>
+				<p>To add an image to a table with the class "Subsection-Table", select the table, right click, choose "Table Properties" and select an image from the background image select box.</p>
+				<p>The sample above uses the class "Subsection-Image-Text-Left".  Alternatively, you could have a "Subsection-Table" that doesn't use a background image.  A Privacy Policy page is a good example of a page that may not need a subsection with a background image.</p>
+				<p><a href="#Applying-Classes" class="Button1">Learn more about setting up your pages</a></p>							
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2>All of our Personal Checking Accounts include:</h2>
+				<ul class="List-Checkmark">
+					<li>Free Online Banking</li>
+					<li>Free Bill Pay</li>
+					<li>Free Mobile Banking</li>
+					<li>Free eStatements</li>
+					<li>Unlimited Check Writing</li>
+				</ul>
+				<p>Take a look at our <a href="#Compare-Accounts">Comparison Chart</a> for a side by side view.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Subsection Features</h2>
+				<p>It may be nice to call-out all products that share the same benefits.  This will help draw attention to those benefits while also reducing the clutter within a comparison chart.</p>
+				<p>You could add a background image to this section to provide more emphasis of those benefits as well.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Free Checking</h2>
+				<p>Enjoy the advantages of our FREE checking account option with no minimum balance or monthly service fee.</p>
+				<h3>Account Details</h3>
+				<ul>
+					<li>Minimum Opening Deposit: $100</li>
+					<li>No Monthly Charges</li>									
+					<li>No minimum balance</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Subsection</h2>
+				<p>For general body copy such as listing a product with a description, you can use a normal subsection with the class "Subsection". The majority of your content on subpages will use this subsection.</p>
+				<p>Refer to <a href="#Formatting-and-Linking">Formatting and Linking</a> for help with organizing and formatting your content.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-3.9.0/images/bg-scenery.jpg');">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Subsection-Table</h2>
+                        <h2><em>(with image background)</em></h2>
+                        <p>Content is placed in a table with one cell. This works well for images that have the main subject centered or you want a full overlay behind the text. If Text-Left or Text-Right aren't used the overlay will take up the entire subsection as opposed to fading on the left or right side.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-3.9.0/images/bg-scenery.jpg');">
+            <tbody>
+                <tr>
+                    <td>
+                        <h3>Two Column with Heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam magna purus, dapibus vel luctus id, efficitur sed nibh. Pellentesque sit amet elit imperdiet, pharetra ipsum non, eleifend metus. Maecenas blandit massa quam, pellentesque pulvinar dolor scelerisque vel.</p>
+                    </td>
+                    <td>
+                        <h3>Verbiage placed in both table cells</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam magna purus, dapibus vel luctus id, efficitur sed nibh. Pellentesque sit amet elit imperdiet, pharetra ipsum non, eleifend metus. Maecenas blandit massa quam, <a href="#">dolor scelerisque vel</a>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table-Text-Right" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-3.9.0/images/bg-sample-02.jpg');">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Subsection-Table-Text-Right</h2>
+                        <h2><em>(with image background)</em></h2>
+                        <p>Content is placed in a table with one cell. This works well for images that have the main subject on the left side of the image.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table-Text-Left" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-3.9.0/images/bg-sample-03.jpg');">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Subsection-Table-Text-Left</h2>
+                        <h2><em>(with image background)</em></h2>
+                        <p>Content is placed in a table with one cell. This works well for images that have the main subject on the right side of the image.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table-Text-Left-Full-Height" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-3.9.0/images/bg-promo-sample-02.jpg');">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Subsection-Table-Text-Left-Full-Height</h2>
+                        <h2><em>(with background image)</em></h2>
+                        <p>Content is placed in table with one cell.&nbsp; This example uses Text-Left like the sample above, but also has "Full-Height" added. This will make the subsection take up the entire browser window's height.&nbsp; This works great for big promotions, e.g. homepage promos.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table-Text-Left-Panel" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-3.9.0/images/bg-promo-sample-01.jpg');">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Subsection-Table-Text-Left-Panel</h2>
+                        <h2><em>(with image background)</em></h2>
+                        <p>Content is placed in a table with one cell. This works well for images with subject matter behind the text since a shaded box area makes text more readable. "-Full-Height" can also be used like the above example for a larger promo look.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table-Text-Right-Half" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-3.9.0/images/devices.jpg');">
+            <tbody>
+                <tr>
+					<td></td>
+                    <td>
+                        <h2>Subsection-Table-Text-Right-Half</h2>
+                        <h2><em>(with image background)</em></h2>
+                        <p>Content is placed in a table with two cells. The empty table cell designates where the image appears and will take up half of the browser window's width.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table-Text-Left-Half-Full-Height" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-3.9.0/images/bg-promo-sample-01.jpg');">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Subsection-Table-Text-Left-Half-Full-Height</h2>
+                        <h2><em>(with image background)</em></h2>
+                        <p>Content is placed in a table with two cells. The empty table cell designates where the image appears and will take up half of the browser window's width. Adding the class 'Full-Height' will make the subsection take up the entire browser window's height.</p>
+                    </td>
+					<td></td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table-Color1">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Subsection-Table-Color1</h2>
+                        <h2><em>(no image background needed)</em></h2>
+                        <p>Content is placed in a table with one cell. If 'Text-Left' or 'Text-Right' aren't used, the content will be centered. A color section is great for drawing attention to the content without the need for a background image.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table-Text-Right-Color2">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Subsection-Table-Text-Right-Color2</h2>
+                        <h2><em>(no image background needed)</em></h2>
+                        <p>Content is placed in a table with one cell. A color section is great for drawing attention to the content without the need for a background image.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+		<table class="Subsection-Table-Color1" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-3.9.0/images/bg-promo-sample-02.jpg');">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Subsection-Table-Color1</h2>
+                        <h2><em>(with image background)</em></h2>
+                        <p>Content is placed in a table with one cell. If 'Text-Left' or 'Text-Right' aren't used, the content will be centered. A color section is great for drawing attention to the content without the need for a background image.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table-Text-Left-Color2" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-3.9.0/images/bg-promo-sample-01.jpg');">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Subsection-Table-Text-Right-Color2</h2>
+                        <h2><em>(with image background)</em></h2>
+                        <p>Content is placed in a table with one cell. A color section is great for drawing attention to the content without the need for a background image.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table-Text-Left-Color1-Full-Height">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Subsection-Table-Text-Left-Color1-Full-Height</h2>
+                        <h2><em>(no image background needed)</em></h2>
+                        <p>Content is placed in a table with one cell. A color section is great for drawing attention to the content without the need for a background image.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="Subsection-Table-Navigation" id="Subsection-Navigation">
+            <tbody>
+                <tr>
+                    <td>
+                        <table class="Table-List">
+                            <tr>
+                                <td>
+                                    <h3><a id="Subsection-Navigation"></a>Get in Touch With Us</h3>
+                                    <ul class="List-No-Marker">
+                                        <li><a href="#">Find a Location Near You</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">ATM Locations</a></li>
+                                        <li><a href="#">Lost or Stolen Card</a></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <h3>Card Center</h3>
+                                    <ul class="List-No-Marker">
+                                        <li><a href="#">Debit Cards</a></li>
+                                        <li><a href="#">Credit Cards</a></li>
+                                        <li><a href="#">Mobile Pay</a></li>
+                                        <li><a href="#">VISA Checkout</a></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <h3>Take the Next Step</h3>
+                                    <ul class="List-No-Marker">
+                                        <li><a href="#">Buy a New Card</a></li>
+                                        <li><a href="#">Buy a Home</a></li>
+                                        <li><a href="#">Start a Business</a></li>
+                                        <li><a href="#">Go to College</a></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <h3>Helpful Information</h3>
+                                    <ul class="List-No-Marker">
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms and Conditions</a></li>
+                                        <li><a href="#">FDIC Insurance</a></li>
+                                        <li><a href="#">Disclosures</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Subsection Navigation</h2>								
+				<p>Generally the subsection navigation is used in the footer as illustrated above with some example links.  It can also be used as a table of contents for a page or a sub list of links for a group of pages, e.g. Invesment Services pages.</p>						
+				<p>This strutural table would be added like a normal .Subsection-Table, but you would choose ".Subsection-Table-Navigation". Then you would add a nested table and add the class ".Table-List" to get a list that spaces out correctly and re-combines when the content no longer fits the area.  Please refer to <a href="#Table-List">Table-List</a> for more information.</p>
+				<p>Optionally, the class ".List-No-Maker" can be used on the un-ordered list to a get clean list without any bullets or checkmarks.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Color1">
+<tbody>
+<tr>
+<td>
+<h1><a id="Image-Guide-Overlays"></a><strong>Image Guide Overlays</strong></h1>
+<p>We provide Image Guide Overlays to assist you with creating images on your website. Each overlay includes the dimensions, max file size, text area markers and potential bleed locations for the various image sizes.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Subsection-Table">
+<tbody>
+<tr>
+<td>
+<h2>Basic Image Guide Instructions</h2>
+<ol>
+	<li>Download the overlay you need by clicking the 'Download Image' button, in the popup preview of the image right click 'save image as' and save it locally to your computer</li>
+	<li>Open the guide overlay image within your favorite image editing software</li>
+	<li>Add an image and manipulate it as necessary using the overlay as a guide</li>
+	<li>Remember to hide the guide overlay before exporting the image</li>
+</ol>
+<p class="Disclaimer">These guides will help provide an estimate of subject matter within an image and any possible text overlaying it on the site or viewable cut-off (bleed). The overlay was made for desktop 1920x1080px (1080p) resolution. Depending on resolutions outside this range, the estimation will be less exact. For mobile use, your website has built-in code to move the subject matter and shrink the image appropriately.<p>
+</td>
+</tr>
+</tbody>
+</table>
+ <table class="Subsection-Table-Text-Left-Overlay" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-4.2.0/images/image-guide-overlay.png');">
+    <tbody>
+        <tr>
+            <td>
+                <h2>Image Guide Overlay</h2>
+                <p><a href="https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-4.2.0/images/image-guide-overlay.png" class="Button1" rel="lightcase">Download Image <strong><em>:Image Guide Overlay</em></strong></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="Subsection-Table-Text-Left-Full-Height-Overlay" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-4.2.0/images/image-full-height-guide-overlay.png');">
+    <tbody>
+        <tr>
+            <td>
+                <h2>Image Full Height Guide Overlay</h2>
+                <p><a href="https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-4.2.0/images/image-full-height-guide-overlay.png" class="Button1" rel="lightcase">Download Image <strong><em>:Image Full Height Guide Overlay</em></strong></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>		
+<table class="Subsection-Table-Text-Left-Half-Overlay" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-4.2.0/images/image-half-guide-overlay.png');">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Image Half Guide Overlay</h2>
+				<p><a href="https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-4.2.0/images/image-half-guide-overlay.png" class="Button1" rel="lightcase">Download Image <strong><em>:Image Halft Guide Overlay</em></strong></a></p>
+			</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table-Text-Left-Half-Full-Height-Overlay" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-4.2.0/images/image-half-full-height-guide-overlay.png');">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Image Half Full Height Guide Overlay</h2>
+				<p><a href="https://whstage1.secureinternetbank.com/Code-Library/Fiserv-CSS/Fiserv-CSS-4.2.0/images/image-half-full-height-guide-overlay.png" class="Button1" rel="lightcase">Download Image <strong><em>:Image Half Full Height Guide Overlay</em></strong></a></p>
+			</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td><h2>Table-Location</h2>
+				<table style="width: 100%;" class="Table-Location">
+					<tbody>
+						<tr>
+							<td><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Location/Table-Location-1.2.0/images/location.svg" alt="Location Placeholder Image" border="0"></td>
+							<td>
+								<h4>Address</h4>
+								<p>125 Main St<br>Anycity, WI 12345</p>
+								<h4>Phone Numbers</h4>
+								<p>Main: (123) 456-7890<br>Fax: (123) 456-7890</p>
+								<p><a href="#" class="Button2" target="_blank">Directions</a></p>
+							</td>
+							<td>
+								<h4>Lobby Hours<strong><br></strong></h4>
+								<p>Monday - Friday: 8:30am - 3:30pm<br>Saturday: 8:00am - 11:00am<br><em>ATM</em></p>
+								<h4>Drive-Up Hours Table-Simple Example</h4>
+								<table class="Table-Simple" style="width: 80%;">
+									<tbody>
+										<tr>
+											<td>
+												<p>Monday - Friday</p>
+											</td>
+											<td>
+												<p>8:00am - 7:00pm</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>Saturday</p>
+											</td>
+											<td>
+												<p>8:00am - 3:00pm</p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<h2>Table-Location</h2>
+								<p>Use the <em>Table-Location</em> class to quickly organize information for a branch location. If a photo is not being used, the first column can be removed.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Lending Center</h2>
+				<table class="Table-Grid">
+					<tbody>
+						<tr>
+							<td>
+								<h3>Fixed &amp; Adjustable Rate Loans</h3>
+								<p>Popular for buying or refinancing a home.</p>
+								<p><a class="Button1" href="#">Fixed &amp; Adjustable Rate Loans</a></p>
+							</td>
+							</tr>
+							<tr>
+							<td>
+								<h3>Construction Loans</h3>
+								<p>Features project and permanent financing with a single closing.</p>
+								<p><a class="Button1" href="#">Construction Loans</a></p>
+							</td>
+							</tr>
+							<tr>
+							<td>
+								<h3>First-Time Homebuyer</h3>
+								<p>If this is your first time buying a home, our Loan Officers are here to guide you through the process.</p>
+								<p><a class="Button1" href="#">First-Time Homebuyer Loans</a></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<h2>Default Table-Grid</h2>
+								<p>Cells widths are variable based on content width. If content is short, remaining page width will be distributed evenly among cells. Longer content will force that cell to be wider than others. By default, the last row will not distribute any remaining space, it will be only as wide as the content within. To force the width of the last row to the full width of the page, see <a href="#Grow">Table-Grid-Grow</a>.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Special Table-Grid styles</h2>
+                <h3>Table-Grid-Half-Panel</h3>
+                <table class="Table-Grid-Half-Panel">
+					<tbody>
+						<tr>
+							<td>
+								<h3>Staff Name</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>Super Long Staff Name Longer Content Super Long Staff Name Longer Content</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>Staff Name</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				 <h3>Table-Grid-Half-Panel-Color1</h3>
+                <table class="Table-Grid-Half-Panel-Color1">
+					<tbody>
+						<tr>
+							<td>
+								<h3>Staff Name</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>Super Long Staff Name Longer Content Super Long Staff Name Longer Content</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>					
+					</tbody>
+				</table>
+				<h3>Table-Grid-Half-Panel-Color2</h3>
+				<table class="Table-Grid-Half-Panel-Color2">
+					<tbody>
+						<tr>
+							<td>
+								<h3>Staff Name</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>Super Long Staff Name Longer Content Super Long Staff Name Longer Content</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>					
+					</tbody>
+				</table>
+				<h3>Table-Grid-Half-Panel-Color-All</h3>
+				<table class="Table-Grid-Half-Panel-Color-All">
+					<tbody>
+						<tr>
+							<td>
+								<h3>Staff Name</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>Super Long Staff Name Longer Content Super Long Staff Name Longer Content</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>					
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+							<h2>Special Table-Grid styles</h2>
+							<h3>Table-Grid-Half-Panel</h3>
+							<p>Special Table-Grid styles have been created to allow for more control over cell widths. Set <em>Table-Grid-Half</em> to set each cell to the same 50% width regardless of the length of content forcing the content to wrap.</p>
+							<p>Adding the <em>-Panel</em> class to the end of any <em>Table-Grid</em> class applies a solid color background and padding to the cells. Example: <em>Table-Grid-Half-Panel</em>, <em>Table-Grid-Panel</em></p>
+							<p>Adding the <em>-Color</em> class to the end of any <em>Table-Grid-Panel</em> class applies a designated background color based off your brand. <em>-Color-All</em> adds all your brand colors (default is 2 colors). Example: <em>Table-Grid-Half-Panel-Color1</em>, <em>Table-Grid-Panel-Color2</em>, <em>Table-Grid-Panel-Color-All</em></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+                <h3>Table-Grid-Thirds-Grow</h3>
+					<table class="Table-Grid-Thirds-Grow">
+						<tbody>
+							<tr>
+								<td>
+									<h3>Super Long Staff Name Longer Content</h3>
+									<p>Phone Number: 555.555.5555</p>
+									<a class="Button1" href="#">Visit Profile</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Staff Name</h3>
+									<p>Phone Number: 555.555.5555</p>
+									<a class="Button1" href="#">Visit Profile</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Staff Name Content</h3>
+									<p>Phone Number: 555.555.5555</p>
+									<a class="Button1" href="#">Visit Profile</a>
+									</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Staff</h3>
+									<p>Phone Number: 555.555.5555</p>
+									<a class="Button1" href="#">Visit Profile</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Staff Name</h3>
+									<p>Phone Number: 555.555.5555</p>
+									<a class="Button1" href="#">Visit Profile</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+							<h3><a id="Grow"></a>Table-Grid-Thirds-Grow</h3>
+							<p>Adding <em>-Thirds</em> to any <em>Table-Grid</em> class forces cells to 33% of the page width regardless of content length forcing the content to wrap.</p>
+							<p>Adding the <em>-Grow</em> class to the end of any <em>Table-Grid</em> class allows the last cell/cells to grow to fill any remaining space in the last row if available. Example: <em>Table-Grid-Half-Grow</em>, <em>Table-Grid-Panel-Grow</em></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+                <h3>Table-Grid-Fourths</h3>
+				<table class="Table-Grid-Fourths">
+					<tbody>
+						<tr>
+							<td>
+								<h3>Employee Name</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>Super Long Employee Name Longer Content</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>Employee Name</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>Employee Name</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>Employee Name</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>Employee Name</h3>
+								<p>Phone Number: 555.555.5555</p>
+								<a class="Button1" href="#">Visit Profile</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+							<h3><a id="Grow"></a>Table-Grid-Fourths</h3>
+							<p>Adding <em>-Fourths</em> to any <em>Table-Grid</em> class forces cells to 25% of the page width regardless of content length forcing the content to wrap.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+                <h3>Table-Grid-Team</h3>
+				<table class="Table-Grid-Team">
+					<tbody>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /><p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+							<h3>Table-Grid-Team</h3>
+							<p>Adding <em>-Team</em> to any Table-Grid style listed above will add image sizing styles and center all content within the cell. Other classes listed here can also be used to control cell spacing, grow and background color panels.</p>
+							<p>Example: <em>Table-Grid-Half-Panel-Team</em>, <em>Table-Grid-Grow-Team</em></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+                <h2>Table-Grid-Team Additional Samples</h2>
+				<h3><a id="Half-Team-Panel"></a>Table-Grid-Half-Team-Panel</h3>
+				<table class="Table-Grid-Half-Team-Panel">
+					<tbody>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="#"></p>
+								<h4>Employee Name</h4>
+								<p>NMLS#XXXXXX</p>
+								<p>123 Main St<br>Brookfield, WI 12345</p>
+								<p>Call <a href="#">XXX-XXX-XXXX</a></p>
+								<p><a href="#" class="Button1">Email Us</a></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="#"></p>
+								<h4>Employee Name</h4>
+								<p>NMLS#XXXXXX</p>
+								<p>123 Main St<br>Brookfield, WI 12345</p>
+								<p>Call <a href="#">XXX-XXX-XXXX</a></p>
+								<p><a href="#" class="Button1">Email Us</a></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3><a id="Team-Grow"></a>Table-Grid-Team-Grow</h3>
+				<table class="Table-Grid-Team-Grow">
+					<tbody>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /><p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><img src="https://whstage1.secureinternetbank.com/Code-Library/Table-Grid/Table-Grid-2.3.0/images/headshot.jpg" alt="" /></p>
+								<p style="text-align: center;"><strong>Employee Name</strong></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+                <h3>Table-Grid-Half-Panel-Step</h3>
+				<table class="Table-Grid-Half-Panel-Step">
+					<tbody>
+						<tr>
+							<td>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget pellentesque mauris. Mauris iaculis suscipit sem, iaculis varius massa gravida vel. Integer luctus, purus ut pulvinar suscipit, nibh nulla laoreet tellus, et vulputate nisi leo ut sapien. </p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Cras in nisi eu elit tincidunt varius. Vestibulum diam nisi, dictum fermentum ultricies nec, ullamcorper scelerisque tortor.</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Aenean pharetra a orci elementum iaculis. Proin quis sollicitudin velit. Proin euismod sodales tellus eget placerat.</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Vestibulum congue feugiat molestie. Vestibulum eget varius ex, et ornare nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+							<h3>Table-Grid-Half-Panel-Step</h3>
+							<p>Adding <em>-Step</em> to any Table-Grid style listed above will add numbered steps to each row in the table.</p>
+							<p>Example: <em>Table-Grid-Half-Panel-Step</em>, <em>Table-Grid-Grow-Step</em></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Contact Form</h2>
+				<a href="contact" class="Form-Include">Form Include</a>
+				<h3>CMS Implementation</h3>
+				<ol>
+					<li>Click "insert/edit link".'</li>
+					<li>Type the following into the URL box. Example: "inc_contact-form.aspx"</li>
+					<li>Select the "Form-Include" class.</li>
+				</ol>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Replace with Checkmarks</h2>
+				<p>Selected characters within a table cell can be automatically turned into checkmark icons. Place only the capital letter "X" within a paragraph element in a table cell. This will allow it to be converted to a checkmark when the page is viewed on the site. A non-visible "Yes" will also be automatically inserted to assist accessibility.</p>
+				<table class="Table-Style" style="width: 100%;">
+					<thead>
+						<tr>
+							<th>Product</th>
+							<th>Free Checks</th>
+							<th>Interest Bearing</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><p>Personal Checking</p></td>
+							<td><p>X</p></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p>Interest Checking</p></td>
+							<td><p>X</p></td>
+							<td><p>X</p></td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+<tbody>
+<tr>
+<td>
+<h2>Product Comparison</h2>
+<p>The product comparison enhancement is a visual comparison between products in graph form. Generally it shows an interest rate by product term with a comparison graph showing competitors. Data, competitor names and formulas can be edited as necessary within the cms data article. The number of competitors is limited for 4.</p>
+<h3>Data</h3>
+<p>The data can be edited in the "Product-Comparison-Table" article. The table includes all data and formulas related to the product comparison enhancement. The Rates, competitors names and disclaimers can be changed per product. Additional rows (products) may also be added or removed as necessary.</p>
+<p>The formulas have been set up during initial implementation on the site and should not need to be changed. Any changes to the formulas or column headers may affect the functionality of the enhancement. </p>
+<h3>Tips</h3>
+<ul>
+<li>The rates should be added in % form. For example 3% can be in the cell as "3", "3.00" or "3.00%".</li>
+<li>A competitor rate does not need to have a value if that product is not offered by that competitor. Their column in the chart will not appear if there is no corresponding rate data value.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table class="Subsection-Table">
+<tbody>
+<tr>
+<td>
+<h2>Site Notice</h2>
+<p>Site notices are areas of the website where alert or notice type of information can be displayed. These notices can be minimized or dismissed by the user but will reappear if the content of the message is changed. This message can be modified within the Content Manager in the "Site Notice" article usually located in the Misc content group. </p>
+<p>Notice types have been developed and styled specifically for this design. To see available notice types or edit a current notice open the "Site Notice" article and click on the table, right click and choose "Table Properties". Open the class dropdown and look for class names starting with "Table-Notice" to identify the notice types available. These classes can be applied to this table to change the appearance of the site notice. A unique id must be included on the table. The background color can also be changed by adding a hexadecimal code to the "Background Color" field. If a background color is not set, the default override styled for this design will be used.</p>
+<p>A site notice is enabled and will show on the site if this "Site Notice" article contains content. To disable the site notice from showing on the site, simply remove all contents of this article. Do not delete the entire article through the configure action. To enable a site notice after it has been disabled, open the "Site Notice" article and click the "Table" menu item, hover over "insert table" and choose a 1x1 table. Apply an available "Table-Notice" class and a unique id to this table using the "Table Properties" edits mentioned above.. Place your cursor inside of this table and type the text to appear in the notice.</p>
+<h3>Tips</h3>
+<ul>
+<li>Limit subjects of site notices to one topic per notice.</li>
+<li>Avoid using inline styling such as changing text sizes within the notice.</li>
+<li>Avoid placing images in notices.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<a href="inc_Product-Selector.aspx" class="Include-Product-Selector">Product Selector</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Product Selector</h2>
+				<p>Choosing the right product can be made easy for visitor by asking them a series of questions and based on their answers your site can recommend one that fits their situation.</p>
+				<p>To add a product selector to any page add a link with the 'Include-Product-Selector' class.  When the page is displayed on the website the link will be replaced with the product selector.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td><h2>Expanding Content</h2>
+			<p>Expanding content can be used to make a long page appear shorter by collapsing content into a clickable headline. The user will need to interact with the headline by clicking it to view the collapsed information.</p>
+			<p>One advantage of collapsing the content is that the headings become a list of topics, giving the user an overview of the content available without having to scroll through the whole page. However a drawback is that when scanning a page for desired information, a user may not interact with the element and will not find the content they are searching for.</p>
+			<h3>Expander with class Table-Expandable</h3>
+			<p>Below is an example of a normal expander with a thin border to separate the expanding content and an arrow to communicate there is content being hidden.</p>
+			<table class="Table-Expandable" style="width: 100%;">
+				<caption><h4><a id="Savings-Account-Terms"></a>Savings Account Terms Expanding Content</h4></caption>
+					<tbody>
+						<tr>
+							<td>
+								<p>To add content to the interior of the expandable content, place your cursor in the single table cell and add content and format. Any type of content can go inside of a expandable content including tables, images and videos.</p>
+								<p><iframe width="560" height="315" src="https://www.youtube.com/embed/WpQ63ykbzjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+								<p>To navigate to a specific expandable content and have it open, create a link to the page name with the ID listed after a "#". For example, place the following in a link's url field:&nbsp;<a href="Content-Guide#Additional-Services">Content-Guide#Additional-Services</a></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="Table-Expandable" style="width: 100%;">
+					<caption><h4><a id="Additional-Services"></a>Additional Services Expanding Content</h4></caption>
+					<tbody>
+						<tr>
+							<td>
+								<p>Our goal is to provide financial products and services that enhance your personal banking experience.</p>
+								<ul>
+									<li>Overdraft Protection</li>
+									<li>Wires</li>
+									<li>Safe Deposit Boxes</li>
+									<li>Notary Services</li>
+								</ul>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3>Expander with class Table-Expandable-Panel</h3>
+				<p>Below is an example of an expander that adds a background to the expanding content for more emphasis and an alternate look.</p>
+			<table class="Table-Expandable-Panel" style="width: 100%;">
+				<caption><h4><a id="Savings-Account-Terms"></a>Savings Account Terms Expanding Content</h4></caption>
+					<tbody>
+						<tr>
+							<td>
+								<p>To add content to the interior of the expandable content, place your cursor in the single table cell and add content and format. Any type of content can go inside of a expandable content including tables, images and videos.</p>
+								<p><iframe width="560" height="315" src="https://www.youtube.com/embed/WpQ63ykbzjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+								<p>To navigate to a specific expandable content and have it open, create a link to the page name with the ID listed after a "#". For example, place the following in a link's url field:&nbsp;<a href="Content-Guide#Additional-Services">Content-Guide#Additional-Services</a></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="Table-Expandable-Panel" style="width: 100%;">
+					<caption><h4><a id="Additional-Services"></a>Additional Services Expanding Content</h4></caption>
+					<tbody>
+						<tr>
+							<td>
+								<p>Our goal is to provide financial products and services that enhance your personal banking experience.</p>
+								<ul>
+									<li>Overdraft Protection</li>
+									<li>Wires</li>
+									<li>Safe Deposit Boxes</li>
+									<li>Notary Services</li>
+								</ul>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+        </tr>
+    </tbody>
+</table>
+
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<h2><a id="Expanding-Content"></a>Expanding Content</h2>
+<p>To add expandable content create a single cell table. Place your cursor in the new table and open the table properties. Add a caption by clicking on the checkbox in the table properties. The caption will always be visible. Set the table class to 'Table-Expandable' or 'Table-Expandable-Panel' and click 'Ok'.</p>
+<p>To add content to the expandable content, place your cursor in the new caption area and add the text you would like the visitor to click to expand your content. A heading can be applied to the text to change its style. To add content to the interior of the expandable content, place your cursor in the single table cell and add content and format.</p>
+<h3>Opening expandable content via a link (optional)</h3>
+<p>To navigate to a specific expandable content and have it open via a link, add a unique name in an anchor that relates to the contents by placing the cursor in the table's caption heading and clicking 'Insert > Anchor'. Anchors names should be used only once per page and have no spaces or special characters. Suggested formatting is to use hyphens, such as <em>Additional-Services</em>. <a href="#Creating-Links">Create a link</a> to the specific expandable content by placing the page name with the anchor name listed after a "#" in the url field. For example, place the following in a link's url field: <a href="Content-Guide#Additional-Services">Content-Guide#Additional-Services</a>.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2 id="Leaving-Site-Disclaimers">Leaving Site Disclaimers</h2>
+				<h3>Speedbump Links</h3>
+				<p>To link to an outside website, a <a href="speedbump.aspx?link=https://google.com">speedbump link</a> should be used. To utilize this type of link, follow the instructions for linking to other pages above. From within the 'Insert/Edit Link' dialog box, you would then choose the checkmark for 'Speedbump' and the additional code needed will be automatically added.</p>
+				<p>Speedbump links should have the 'Target' option set as 'This Window'.</p>
+				<h3>Mailbump Links</h3>
+				<p>A mailbump can be used when linking directly to an email address. This informs users that email is not secure and that personal or sensitive information should not be sent through this means.</p>
+				<p>To add a mailbump, follow the instructions for linking to other pages above. From within the 'Insert/Edit Link' dialog box, add the email address in the following format in the url field: <a href="Mailbump.aspx?link=mailto:email@email.com"><em>Mailbump.aspx?link=mailto:email@email.com</em></a>.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+			<h2>Lightcase</h2>
+			<p>Lightcase allows you to have content come up in an overlay on your website.  It is best used for videos and images, but can also be used for additional information that doesn't need to be prominent on the page.</p>
+			<h3>Video Links</h3>
+			<p>To have a video play in a lightcase, first insert a link for the video. In the 'Insert/Edit Link' dialog box, use the URL of the video. In most cases this will be the share link provided by the video streaming service of your choice.  Then type "lightcase" in the 'rel' input field. Youtube links need to use the following before the video code, https://www.youtube.com/embed/.</p>
+			<p><a class="Button1" rel="lightcase" href="https://www.youtube.com/embed/jFQJldmRUvA">Play Video</a></p>
+			<h3>Image Links</h3>
+			<p>To have an image come up in the lightcase, first write the text that you want the link to be.  Highlight the text and choose 'Insert/Edit Link' from the icon menu above.  In the 'URL' field, place the CMS name of the image (ContentHander....).  To find this name... Then type "lightcase" in the 'rel' input field.  You can include a title to your image by filling in the 'title' input field.</p>
+			<p><a href="https://whstage1.secureinternetbank.com/Code-Library/Lightcase/Lightcase-4.0.0/images/test-image-1.jpg" rel="lightcase:Test:slideshow">Image 1</a></p>
+			<p><a href="https://whstage1.secureinternetbank.com/Code-Library/Lightcase/Lightcase-4.0.0/images/test-image-2.jpg" rel="lightcase:Test:slideshow" title="image title here">Image 2</a></p>
+			<h4>Image Collections</h4>
+			<p>If you have more than one image that you would like the visitor to be able to scroll through once the lighcase is open, you will need to create a collection. To create a collection you need to add a unique collection name to the 'rel' input field to all of the images that should be part of the same collection.  You can have more than one collection on the same page. </p>
+			<p>In the 'rel' input field inside of the 'Insert/Edit Link' dialog box, you would add a colon after "lightcase" with the collection name for each image (Ex: lightcase:BoardofDirectors).  The collection name should not have any spaces or special characters and should be descriptive.</p>
+			<h3>Inline Hidden Content</h3>
+			<p>To have hidden content come up in a lightcase, it is a two step process.  First insert a one row, one celled table.  In the 'Table Properties' dialog box, give the table a unique, descriptive ID (should not contain spaces or special characters) in the 'Table ID' field and also choose 'Hidden' from the class options.</p>
+			<p>Once the table is created and you have placed in the content, you will need to create a link that the hidden table will be opened from.  This link needs to be outside of the new table you just created.  Highlight the text and choose 'Insert/Edit Link' from the icon menu above. In the 'URL' field use a hashtag/pound symbol and then the name of table ID (EX: #HiddenTable). Then type "lightcase" in the 'rel' input field.</p>
+			<p>You can also have collections with hidden content sections just like you can with images.  Please follow the above instructions for Image Collections to apply collections to content.</p>
+			<p><a href="lightcase/#InlineTable" rel="lightcase">Hidden Table</a></p>
+			<table style="width: 100%;" id="InlineTable" class="Hidden">
+				<tbody>
+					<tr>
+						<td valign="top">
+							<h1>Any content</h1>
+							<h3>Place any content inside of any container than can have an id.</h3>
+							<p>CMS can only allow ids (within the user dialog) on tables and divs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor volutpat nibh et venenatis. Vivamus dictum, tellus a facilisis tincidunt, elit elit dictum nibh, ut commodo nunc lacus a neque.</p>
+							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2> <a id="Sample-Pages"></a>Sample Pages</h2>				
+				<p>Several commonly used page layouts have been created to use within the website. These can give ideas on layout options and can be used as a starting layout to add in customized content.</p>
+				<p>To use a sample page, navigate to the "Sample Pages" content group in your cms instance, open an article, click view in the editor window, select "Source Code", select and copy all within the window. Go to the new article that is being created, click view in the editor window, select "Source Code" and paste the sample. Click "ok" to return to the visual editor and proceed updating images and content.</p>
+			
+				<table class="Table-Panel-Nav">
+    <tbody>
+        <tr>
+            <td style="vertical-align: top;">
+                <h3>Sample Page Layouts</h3>
+                <ul>
+                    <li><a href="Sample-Style">Sample Subpage</a></li>
+                    <li><a href="Sample-Style#Compare-Accounts">Sample Anchor Link</a></li>
+                    <li><a href="Sample-Style-Image-Sections">Sample Style with Image Sections</a></li>
+                    <li><a href="Sample-Style-Image-Half-Sections">Sample Style with Image Half Sections</a></li>
+                    <li><a href="Sample-Style-No-Images">Sample Style with No Images</a></li>
+                </ul>
+            </td>
+            <td style="vertical-align: top;">
+                <h3>Special Page Layouts</h3>
+                <ul>
+                    <li><a href="Sample-Contact-Us">Sample Contact Us</a></li>
+                    <li><a href="Sample-Locations-with-Images">Sample Locations with Images</a></li>
+                    <li><a href="Sample-Locations-without-Images">Sample Locations without Images</a></li>
+                    <li><a href="Sample-Team">Sample Team</a></li>
+                    <li><a href="Sample-Education-Center">Sample Education Center</a></li>
+                    <li><a href="Sample-News-Events">Sample News and Events</a></li>
+                </ul>
+            </td>
+            <td style="vertical-align: top;">
+                <h3>Sample Utility Pages</h3>
+                <ul>
+                    <li><a href="Privacy-Policy">Sample Privacy Policy</a></li>
+                    <li><a href="speedbump.aspx?link=http://www.google.com">Sample Speedbump</a></li>
+                    <li><a href="Error500.aspx">Sample Error Page</a></li>
+					<li><a href="Content-Guide">Content Guide</a></li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2>CMS Include</h2>
+				<p>CMS Include allows for include type functionality from within CMS. It could be used for quicklinks, promos, or forms that are used across multiple pages but reference a single article/file.</p>
+                <h3>Implementation Guide</h3>
+				<p>Within a CMS article:</p>
+				<ol>
+					<li>Click "insert/edit link."</li>
+					<li>Paste the desired article name or file URL into the URL box.</li>
+					<li>Select the "CMS-Include" class.</li>
+				</ol>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Rate Updater</h2>
+				<p>Rates throughout this website require updates within a single source, reducing the time to update them. Look for the 'Rate-Updater' or similarly named article to begin editing them. Within that article you will see paragraph of specific rates these have a ':' character that separates the name and the rate. The name is used in the class name for spans in the content of other articles.  These class name start with 'Rate-Updater-' followed by the name.  The spaces in the name need to be replaced with '-' characters.</p>
+				<p><strong>Rate Paragraph:</strong> &lt;p&gt;High Yield Savings: 2.99%&lt;/p&gt;</p>
+				<p><strong>HTML used for that rate:</strong> &lt;p&gt;&lt;span class="Rate-Updater-High-Yield-Savings"&gt;Loading Rate...&lt;/span&gt;*APR&lt;/p&gt;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Quicklinks">
+	<tbody>
+		<tr>
+			<td>
+				<h2>How can we <strong>help you?</strong></h2>
+				<table class="Table-Quicklinks-Grid">
+					<tbody>
+						<tr>
+							<td><a class="icon-map-marker-o" href="#">Find a Location</a></td>
+							<td><a class="icon-piggy-bank-o" href="#">Open an Account</a></td>
+							<td><a class="icon-credit-cards-1-o" href="#">Report a Lost Card</a></td>
+							<td><a class="icon-check-o" href="#">Order checks</a></td>							
+							<td><a class="icon-grad-hat-o" href="#">Education Center</a></td>														
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table-Quicklinks">
+	<tbody>
+		<tr>
+			<td>
+				<h2>How can we <strong>help you?</strong></h2>
+				<table class="Table-Quicklinks-Grid-Description">
+					<tbody>
+						<tr>
+							<td><a class="icon-map-marker-o" href="#"><strong>Find a Location</strong>Visit one of our conveniently located branches or ATMs.</a></td>
+							<td><a class="icon-credit-cards-1-o" href="#"><strong>Report a Lost Card</strong>Get a card deactivated and a new one reissued.</a></td>
+							<td><a class="icon-check-o" href="#"><strong>Order checks</strong> Quickly order checks online with Deluxe.</a></td>
+							<td><a class="icon-piggy-bank-o" href="#"><strong>Open an Account</strong>Save time with our quick and easy online application.</a></td>							
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Quicklink Section</h2>								
+				<p>Create a Quicklink Section to implement striking call-to-action links for key areas of your site.  This is normally placed on the homepage but can be added to any page.</p>
+				<p>The sample above uses an outer table with class "Subsection-Table-Quicklinks". This is only needed if you want a separate section to hold the content.  All that is required is the inner table with the class "Table-Quicklinks-Grid".  This "Table-Quicklinks-Grid" table can be placed in the content area of a section just like any other table. </p>
+				<p>To apply an icon to a link, simply create a link with the text you would like and then click into the link, right click > add class and choose the appropriate icon class.</p>
+				<p>If you would like a heading with a supporting description like the second example above, follow the steps above to apply an icon to a link and using your cursor select the text you would like as the heading and apply <strong>bold</strong> to it.  This will automatically increase the size and give it the heading look.</p>
+				<h3>Helpful Tips</h3>
+				<ul>
+				<li>We encourage you to keep the quicklinks links consistent.  They should all be a short name or a heading with a description</li>
+				<li>If you have a heading with a description present and change the link, the formatting will be lost.  You will have to re-apply the <strong>bold</strong> to the text you would like as the heading. If the content is too squished, you can add the class "Table-Quicklinks-Grid-Description" to the inner table to increase the size of the table cell.</li>
+				<li>Only add one link per table cell (td).</li>				
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table-Rates">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Featured <strong>Rates</strong></h2>
+				<table class="Table-Rates-Grid">
+					<tbody>
+						<tr>
+							<td>
+								<h3><a href="#">Checking</a></h3>
+								<p>APY* up to</p>
+								<h4>5.25%</h4>
+								<p><a href="#" class="fa-arrow-circle-right">Open Account</a></p>
+							</td>
+							<td>
+								<h3><a href="#">Home Loans</a></h3>
+								<p>APR* as low as</p>
+								<h4>6.28%</h4>
+								<p><a href="#" class="fa-check">Apply Now</a></p>
+							</td>
+							<td>
+								<h3><a href="#">Home Equity</a></h3>
+								<p>APR* as low as</p>
+								<h4>7.79%</h4>
+								<p><a href="#" class="fa-check">Apply Now</a></p>
+							</td>
+							<td>
+								<h3><a href="#">Auto Loans</a></h3>
+								<p>APR* as low as</p>
+								<h4>6.64%</h4>
+								<p><a href="#" class="fa-check">Apply Now</a></p>
+							</td>		
+						</tr>
+					</tbody>
+				</table>
+				<p><a href="#" class="Button1">View All Rates</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="Subsection-Table-Guide">
+	<tbody>
+		<tr>
+			<td>
+				<h2>Rates Section</h2>								
+				<p>Create a Rates Section to highlight key rates on your site.  This is normally placed on the homepage as a promotional area but can be added to any page.</p>
+				<p>The sample above uses an outer table with class "Subsection-Table-Rates". This is only needed if you want a separate section to hold the content.  All that is required is the inner table with the class "Table-Rates-Grid".  This "Table-Rates-Grid" table can be placed in the content area of a section just like any other table. </p>
+				<h3>The Basic Structure</h3>
+				<ul>
+				<li><strong>Rate Product</strong> - H3 Heading normally with a link to that specific product</li>	
+				<li><strong>Annual Percentage Yield (APY) or Annual Percentage Rate (APR)</strong> - Paragraph</li>
+				<li><strong>Rate</strong> - H4 Heading</li>
+				<li><strong>Open or Apply</strong> - Paragraph with a link, (optional - add a class with a check or arrow icon via .fa-arrow-circle-right or .fa-check)</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Subsection-Table">
+	<tbody>
+		<tr>
+			<td>
+			<h3>Custom Icon Font</h3>
+			<p>To use an icon, in cms select an element to apply the class to, for example a paragraph or link tag, right click and hover over "add class". Add a class to the element that starts in "icon-" for a custom icon or "fa-" for a fontAwesome icon. Below is a list of custom icons available and some commonly used fontAwesome icons. Refer to specific instructions associated with icon supported sections in this content guide for additional information. These classes should be available in the cms class drop down list. If they are not, please contact your Technical Consultant.</p>
+			<table class="Table-Grid-Panel-Grow">
+				<tbody>
+					<tr>
+						<td>
+							<h4>Account</h4>
+							<table class="Table-Grid-Half">
+								<tbody>
+									<tr>
+									<td><p class="icon-personal">Personal: <em>icon-personal</em></p>
+										<p class="icon-personal-2">Personal 2: <em>icon-personal-2</em></p>
+										<p class="icon-personal-3">Personal 3: <em>icon-personal-3</em></p>
+										<p class="fa-user">Personal 4: <em>fa-user</em></p>
+										<p class="icon-business">Business: <em>icon-business</em></p>
+										<p class="icon-business-o">Business Outline: <em>icon-business-o</em></p>
+										<p class="fa-building">Building: <em>fa-building</em></p>
+										<p class="icon-bank">Bank: <em>icon-bank</em></p>
+                                    </td>
+									</tr>
+									<tr>
+									<td>	
+										<p class="icon-insurance">Insurance: <em>icon-insurance</em></p>
+										<p class="icon-wealth">Wealth: <em>icon-wealth</em></p>
+										<p class="icon-lending">Lending: <em>icon-lending</em></p>
+										<p class="icon-lending-2">Lending 2: <em>icon-lending-2</em></p>
+										<p class="icon-home">Home: <em>icon-home</em></p>
+										<p class="icon-home-o">Home Outline: <em>icon-home-o</em></p>
+										<p class="icon-house-car">House Car: <em>icon-house-car</em></p>
+										<p class="fa-car">Car: <em>fa-car</em></p>
+
+									</td>
+									</tr>
+								</tbody>
+							</table>
+						   </td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Resources</h4>
+								<table class="Table-Grid-Half">
+									<tbody>
+										<tr>
+											<td>
+												<p class="icon-wallet">Wallet: <em>icon-wallet</em></p>
+												<p class="icon-wallet-o">Wallet Outline: <em>icon-wallet-o</em></p>
+												<p class="icon-money">Money: <em>icon-money</em></p>
+												<p class="icon-money-o">Money Outline: <em>icon-money-o</em></p>
+												<p class="icon-calculator-1">Calculator 1: <em>icon-calculator-1</em></p>
+												<p class="icon-calculator-2">Calculator 2: <em>icon-calculator-2</em></p>
+												<p class="icon-calculator-3">Calculator 3: <em>icon-calculator-3</em></p>
+												<p class="fa-calculator">Calculator 4: <em>fa-calculator</em></p>
+												<p class="icon-piggy-bank">Piggy Bank: <em>icon-piggy-bank</em></p>
+												<p class="icon-piggy-bank-2">Piggy Bank 2: <em>icon-piggy-bank-2</em></p>
+												<p class="icon-piggy-bank-o">Piggy Bank Outline: <em>icon-piggy-bank-o</em></p>
+												<p class="icon-hand-coin-o">Hand Coin Outline: <em>icon-hand-coin-o</em></p>
+												<p class="icon-person-plus">Person Plus: <em>icon-person-plus</em></p>
+												<p class="icon-badge-o">Badge Outline: <em>icon-badge-o</em></p>
+												<p class="icon-credit-card">Credit Card: <em>icon-credit-card</em></p>
+												<p class="fa-credit-card">Credit Card 2: <em>fa-credit-card</em></p>
+												<p class="icon-credit-cards-1-o">Credit Cards 1 Outline: <em>icon-credit-cards-1-o</em></p>
+												<p class="icon-credit-cards-2-o">Credit Cards 2 Outline: <em>icon-credit-cards-2-o</em></p>
+												<p class="icon-check">Check: <em>icon-check</em></p>
+											</td>
+										</tr>
+										<tr>
+											<td> 
+												<p class="icon-check-o">Check Outline: <em>icon-check-o</em></p>
+												<p class="icon-computer">Computer: <em>icon-computer</em></p>
+												<p class="icon-computer-2">Computer 2: <em>icon-computer-2</em></p>
+												<p class="icon-computer-3">Computer 3: <em>icon-computer-3</em></p>
+												<p class="icon-computer-graph">Computer Graph: <em>icon-computer-graph</em></p>
+												<p class="icon-computer-checkmark">Computer Checkmark: <em>icon-computer-checkmark</em></p><p class="icon-devices-o">Devices: <em>icon-devices-o</em></p>
+												<p class="icon-cell-phone">Cell Phone: <em>icon-cell-phone</em></p>
+												<p class="icon-mobile-o">Mobile Phone Outline: <em>icon-mobile-o</em></p>
+												<p class="icon-light-bulb">Light Bulb: <em>icon-light-bulb</em></p>
+												<p class="icon-light-bulb-o">Light Bulb Outline: <em>icon-light-bulb-o</em></p>
+												<p class="icon-rates">Rates: <em>icon-rates</em></p>
+												<p class="icon-chart-o">Chart Outline: <em>icon-chart-o</em></p>
+												<p class="fa-area-chart">Chart: <em>fa-area-chart</em></p>
+												<p class="icon-sprout">Sprout: <em>icon-sprout</em></p>
+												<p class="icon-atm-1">ATM: <em>icon-atm-1</em></p>
+												<p class="icon-atm-2">ATM 2: <em>icon-atm-2</em></p>
+												<p class="icon-grad-hat-o">Graduation Hat: <em>icon-grad-hat-o</em></p>
+												<p class="icon-chess-o">Chess Piece: <em>icon-chess-o</em></p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td> 
+								<h4>Utility</h4>
+								<table class="Table-Grid-Half">
+									<tbody>
+										<tr>
+											<td>
+												<p class="icon-alert">Alert: <em>icon-alert</em></p>
+												<p class="icon-lock">Lock: <em>icon-lock</em></p>
+												<p class="fa-lock">Lock 2: <em>fa-lock</em></p>
+												<p class="icon-login">Login: <em>icon-login</em></p>
+												<p class="icon-login-key">Login Key: <em>icon-login-key</em></p>   
+												<p class="icon-folder">Folder: <em>icon-folder</em></p>
+												<p class="icon-form-o">Form: <em>icon-form-o</em></p>
+												<p class="icon-calendar-o">Calendar: <em>icon-calendar-o</em></p>
+												<p class="icon-security">Security: <em>icon-security</em></p>
+												<p class="icon-shield-lock">Shield Lock: <em>icon-shield-lock</em></p>
+												<p class="icon-shield-o">Shield Outline: <em>icon-shield-o</em></p>
+												<p class="icon-tools">Tools: <em>icon-tools</em></p>
+												<p class="icon-phone">Phone: <em>icon-phone</em></p>
+												<p class="fa-phone">Phone 2: <em>fa-phone</em></p>
+												<p class="fa-fax">Fax: <em>fa-fax</em></p>
+												<p class="icon-map">Map: <em>icon-map</em></p>
+												<p class="fa-map-marker">Map Marker: <em>fa-map-marker</em></p>
+												<p class="icon-map-marker-o">Map Marker Outline: <em>icon-map-marker-o</em></p>
+												<p class="fa-location-arrow">Location Arrow: <em>fa-location-arrow</em></p>
+											</td>
+										</tr>
+										<tr>
+										<td> 
+											<p class="fa-search">Search: <em>fa-search</em></p>
+											<p class="icon-cloud">Cloud: <em>icon-cloud</em></p><p class="icon-video">Video: <em>icon-video</em></p>
+											<p class="fa-question-circle">Question Circle: <em>fa-question-circle</em></p>
+											<p class="fa-check">Check: <em>fa-check</em></p>
+											<p class="icon-checkmark">Checkmark: <em>icon-checkmark</em></p>
+											<p class="fa-check-circle">Check Circle: <em>fa-check-circle</em></p>
+											<p class="fa-check-square">Check Square: <em>fa-check-square</em></p>
+											<p class="fa-comment">Comment: <em>fa-comment</em></p>
+											<p class="icon-chat">Chat: <em>icon-chat</em></p>
+											<p class="icon-chat-o">Chat Outline: <em>icon-chat-o</em></p>
+											<p class="icon-text-resizer">Text Resizer: <em>icon-text-resizer</em></p>
+											<p class="icon-text-increase">Text Resize Increase: <em>icon-text-increase</em></p>
+											<p class="icon-text-decrease">Text Resize Decrease: <em>icon-text-decrease</em></p>
+											<p class="icon-text-reset">Text Resize Reset: <em>icon-text-reset</em></p>
+											<p class="icon-ncua">NCUA: <em>icon-ncua</em></p>
+											<p class="icon-fdic">FDIC: <em>icon-fdic</em></p>
+											<p class="icon-ehl">Equal Housing Lender: <em>icon-ehl</em></p>
+											<p class="icon-eho">Equal Housing Opportunity: <em>icon-eho</em></p>
+											<p class="icon-asi">American Share Insurance: <em>icon-asi</em></p>
+										</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>

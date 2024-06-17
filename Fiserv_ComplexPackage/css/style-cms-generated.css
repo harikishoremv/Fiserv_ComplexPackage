@@ -1,0 +1,800 @@
+.Location-Finder-Table {
+    margin: calc(var(--vertical-spacing) * 4) auto;
+    counter-reset: cell-row -1;
+    font-size: .6em;
+}
+
+    .Location-Finder-Table > * > tr {
+        counter-increment: cell-row;
+        counter-reset: cell-column;
+    }
+
+        .Location-Finder-Table > * > tr > td {
+            border: 1px solid #CCC;
+            padding: var(--vertical-spacing);
+        }
+
+        .Location-Finder-Table > * > tr:first-child > td,
+        .Location-Finder-Table > * > tr:not(:first-child) > td:first-child {
+            counter-increment: cell-column;
+            position: relative;
+        }
+
+        .Location-Finder-Table > * > tr:first-child > td {
+            counter-increment: cell-column;
+            padding-top: 1.25rem;
+        }
+
+        .Location-Finder-Table > * > tr > td:first-child {
+            counter-increment: cell-column;
+            position: relative;
+            padding-left: 1.25rem;
+        }
+
+            .Location-Finder-Table > * > tr:first-child > td:after,
+            .Location-Finder-Table > * > tr > td:first-child:before {
+                display: block;
+                font-weight: 700;
+                color: var(--color1);
+                text-align: center;
+                background-color: #0000001a;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+        .Location-Finder-Table > * > tr:first-child > td:after {
+            content: counter(cell-column, upper-alpha);
+            width: 100%;
+        }
+
+        .Location-Finder-Table > * > tr > td:first-child:before {
+            content: counter(cell-row);
+            height: 100%;
+            width: .75rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .Location-Finder-Table > * > tr > td:first-child img {
+            width: 4rem;
+        }
+
+/* Change classes to match your class settings */
+body#tinymce > table[class*=Lang-],
+body#tinymce > table[class*=Lang-] > tbody,
+body#tinymce > table[class*=Lang-] > tbody > tr,
+body#tinymce > table[class*=Lang-] > tbody > tr > td {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    border: none;
+}
+/* create outline around language areas */
+.Lang-English, .Lang-Spanish {
+    border: 2px solid darkred !important;
+}
+
+.Lang-Spanish {
+    border-color: darkblue !important;
+}
+
+/* apply lang indicator box for visual reference. Change classes and content values to match your class settings. */
+    .Lang-English:before,
+    .Lang-Spanish:before,
+    .Lang-English table[class*="Subsection-Table"]:after,
+    .Lang-Spanish table[class*="Subsection-Table"]:after {
+        position: absolute;
+        left: 0em;
+        top: 0;
+        font-size: .5em;
+        display: block;
+        content: 'En';
+        color: #fff;
+        background-color: darkred;
+        z-index: 10;
+    }
+
+    .Lang-Spanish:before,
+    .Lang-Spanish table[class*="Subsection-Table"]:after {
+        content: 'es';
+        background-color: darkblue;
+    }
+
+@import url("font-awesome-min.css"); /* } */
+
+body {
+    height: 100%;
+    opacity: 1;
+    animation: none;
+}
+
+.mce-content-body a.Include-Form {
+    display: block;
+}
+
+td, th {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+body {
+    font-size: 1rem;
+}
+
+_:-ms-fullscreen, :root ol > li:before, _:-ms-fullscreen, :root [class*="Subsection"] ol > li:before {
+    font-size: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+[class*="Subsection-Table"] {
+    border: .065em solid #00fd00;
+}
+
+@media (min-width: 1001px) {
+    [class*="Subsection-Table"][class*="-Full-Height"]:not([class*="Half"]),
+    [class*="Subsection-Table"][class*="-Full-Height"]:not([class*="Half"]) > tbody {
+        height: 43.25vw;
+        min-height: 30em;
+        max-height: 0;
+    }
+
+    [class*="Subsection-Table"][class*="-Full-Height"][class*="Half"] > tbody > tr:first-of-type {
+        min-height: 30em;
+    }
+}
+
+.Missing {
+    background-color: yellow;
+}
+
+.Button1, .Button2 {
+}
+
+.Subsection-Table {
+}
+
+.Subsection-Table-Color1 {
+}
+
+.Subsection-Table-Color2 {
+}
+
+.Subsection-Table-Text-Left {
+}
+
+.Subsection-Table-Text-Right {
+}
+
+.Subsection-Table-Text-Left-Color1 {
+}
+
+.Subsection-Table-Text-Left-Color2 {
+}
+
+.Subsection-Table-Text-Right-Color1 {
+}
+
+.Subsection-Table-Text-Right-Color2 {
+}
+
+.Subsection-Table-Full-Height {
+}
+
+.Subsection-Table-Full-Height-Color1 {
+}
+
+.Subsection-Table-Full-Height-Color2 {
+}
+
+.Subsection-Table-Text-Left-Full-Height {
+}
+
+.Subsection-Table-Text-Right-Full-Height {
+}
+
+.Subsection-Table-Text-Left-Color1-Full-Height {
+}
+
+.Subsection-Table-Text-Left-Color2-Full-Height {
+}
+
+.Subsection-Table-Text-Right-Color1-Full-Height {
+}
+
+.Subsection-Table-Text-Right-Color2-Full-Height {
+}
+
+.Subsection-Table-Panel {
+}
+
+.Subsection-Table-Text-Left-Panel {
+}
+
+.Subsection-Table-Text-Right-Panel {
+}
+
+.Subsection-Table-Panel-Full-Height {
+}
+
+.Subsection-Table-Text-Left-Panel-Full-Height {
+}
+
+.Subsection-Table-Text-Right-Panel-Full-Height {
+}
+
+.Subsection-Table-Text-Left-Half {
+}
+
+.Subsection-Table-Text-Right-Half {
+}
+
+.Subsection-Table-Text-Left-Half-Full-Height {
+}
+
+.Subsection-Table-Text-Right-Half-Full-Height {
+}
+
+.List-Panel {
+}
+
+.List-Checkmark {
+}
+
+.List-Checkmark-Panel {
+}
+
+.List-Location {
+}
+
+.List-Location-Panel {
+}
+
+.List-Form {
+}
+
+.List-Form-Panel {
+}
+
+.List-PDF {
+}
+
+.List-PDF-Panel {
+}
+
+.Disclaimer {
+}
+
+.Float-Left {
+}
+
+.Float-Right {
+}
+
+.Image-Shadow {
+}
+
+.Table-Style {
+}
+
+.Table-Product {
+}
+
+.Table-Simple {
+}
+
+.Table-Disclaimer {
+}
+
+.Table-List {
+}
+
+.Table-Location {
+}
+
+.Table-Grid,
+.Table-Grid-Float-Right,
+.Table-Grid-Grow,
+.Table-Grid-Panel,
+.Table-Grid-Panel-Color1,
+.Table-Grid-Panel-Color2,
+.Table-Grid-Panel-Color-All,
+.Table-Grid-Panel-Step,
+.Table-Grid-Panel-Float-Right,
+.Table-Grid-Panel-Grow,
+.Table-Grid-Team,
+.Table-Grid-Panel-Team,
+.Table-Grid-Grow-Team,
+.Table-Grid-Panel-Grow-Team,
+.Table-Grid-Half,
+.Table-Grid-Half-Grow,
+.Table-Grid-Half-Panel,
+.Table-Grid-Half-Panel-Color1,
+.Table-Grid-Half-Panel-Color2,
+.Table-Grid-Half-Panel-Color-All,
+.Table-Grid-Half-Panel-Step,
+.Table-Grid-Half-Panel-Grow,
+.Table-Grid-Half-Team,
+.Table-Grid-Half-Panel-Team,
+.Table-Grid-Half-Grow-Team,
+.Table-Grid-Half-Panel-Grow-Team,
+.Table-Grid-Thirds,
+.Table-Grid-Thirds-Grow,
+.Table-Grid-Thirds-Panel,
+.Table-Grid-Thirds-Panel-Color1,
+.Table-Grid-Thirds-Panel-Color2,
+.Table-Grid-Thirds-Panel-Color-All,
+.Table-Grid-Thirds-Panel-Step,
+.Table-Grid-Thirds-Panel-Grow,
+.Table-Grid-Thirds-Team,
+.Table-Grid-Thirds-Panel-Team,
+.Table-Grid-Thirds-Grow-Team,
+.Table-Grid-Thirds-Panel-Grow-Team,
+.Table-Grid-Fourths,
+.Table-Grid-Fourths-Grow,
+.Table-Grid-Fourths-Panel,
+.Table-Grid-Fourths-Panel-Color1,
+.Table-Grid-Fourths-Panel-Color2,
+.Table-Grid-Fourths-Panel-Color-All,
+.Table-Grid-Fourths-Panel-Step,
+.Table-Grid-Fourths-Panel-Grow,
+.Table-Grid-Fourths-Team,
+.Table-Grid-Fourths-Panel-Team,
+.Table-Grid-Fourths-Grow-Team,
+.Table-Grid-Fourths-Panel-Grow-Team {
+}
+
+.Table-Privacy {
+  
+}
+
+.Table-Grow-Panel-Timeline {
+}
+
+.Subsection-Table-Quicklinks {}
+.Table-Quicklinks-Grid {}
+.Table-Quicklinks-Grid-Description {}
+.Table-Quicklinks-Grid-Side {}
+.Table-Quicklinks-Grid-App {}
+.Table-Quicklinks-Grid-Flip {}
+
+.Subsection-Table-Rates {}
+.Table-Rates-Grid {}
+.Table-Rates-Grid-Heading {}
+
+.CMS-Include {}
+
+.Form-Include {
+}
+a.Form-Include::before {
+    content: 'This will be replaced with a contact form. Deleting this will remove a large portion of content from your page.';
+    color: red;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+a.Form-Include::after {
+    content: 'Instructions: Click "insert/edit link", paste the desired article name into the URL box, and select the "Form-Include" class.';
+    color: black;
+    display: block;
+}
+
+.Exclude-From-Side-Nav {
+
+}
+
+.Table-Notice {
+    margin: 0;
+    width: 100%;
+    color: #000;
+    /*background-color: #ff6600;*/
+}
+
+    .Table-Notice h2, .Table-Notice h3, .Table-Notice h4 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .Table-Notice td {
+        padding: 1em 1.5em 1.5em 1.5em;
+        box-sizing: border-box;
+        max-height: 125px;
+    }
+
+        .Table-Notice td:only-of-type {
+            text-align: center;
+        }
+
+    .Table-Notice + p {
+        background-color: red;
+    }
+.Table-Notice,
+.Table-Notice-Bottom,
+.Table-Notice-Bottom-Privacy,
+.Table-Notice-Popup,
+.Table-Notice-Bottom-Right-Popup,
+.Table-Notice-Ribbon-Bottom-Right,
+.Table-Notice-Ribbon-Bottom-Left {
+}
+
+.Table-Panel-Nav {
+}
+
+.List-Top-Nav {
+}
+
+[class*="Table"][class*="-Panel-Nav"] {
+    position: relative;
+    display: flex;
+    /* width: 40%; */
+    font-size: .95em;
+}
+
+    [class*="Table"][class*="-Panel-Nav"]:before {
+        color: red;
+        font-weight: 500;
+        content: '*Please do not resize table or table cells. Only add/remove columns*';
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        background-color: yellow;
+        z-index: 5;
+    }
+
+
+    [class*="Table"][class*="-Panel-Nav"] > tbody,
+    [class*="Table"][class*="-Panel-Nav"] > tbody > tr {
+        display: flex;
+        width: 100%;
+    }
+
+        [class*="Table"][class*="-Panel-Nav"] > tbody > tr > td {
+            position: relative;
+            padding: .5em 2em 1.5em 2em;
+            /* min-width: 16em; */
+            flex-grow: 1;
+            vertical-align: top;
+            background-color: var(--color4);
+        }
+
+            [class*="Table"][class*="-Panel-Nav"] > tbody > tr > td:before {
+                position: absolute;
+                display: block;
+                content: "";
+                left: -.111em;
+                bottom: 0;
+                width: .056em;
+                height: 80%;
+                background: linear-gradient(to bottom, rgba(234,234,234,1) 29%,rgba(144,144,144,1) 100%);
+            }
+
+    [class*="Table"][class*="-Panel-Nav"] h3 {
+        font-size: 1.15em;
+    }
+
+    [class*="Table"][class*="-Panel-Nav"] ul,
+    ul.List-Top-Nav {
+        margin: 1em 0 .5em 0;
+        padding: 0;
+    }
+
+        [class*="Table"][class*="-Panel-Nav"] ul li
+        ul.List-Top-Nav li {
+            position: relative;
+            padding: .5em 0 .5em 1.5em;
+            background-repeat: no-repeat;
+        }
+
+        [class*="Table"][class*="-Panel-Nav"] ul > li:before,
+        ul.List-Top-Nav li:before {
+            padding-left: 0;
+            line-height: 1.2;
+            content: "\f0c8";
+            font-family: 'fontAwesome';
+            height: auto;
+            display: block;
+            position: absolute;
+            text-align: center;
+            left: .2em;
+            top: .95em;
+            color: #929292;
+            font-size: 0.750em;
+        }
+
+        [class*="Table"][class*="-Panel-Nav"] ul > li a:before,
+        ul.List-Top-Nav li a:before {
+            margin-right: .5em;
+        }
+
+a.Include-Product-Selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 4rem;
+    padding: 2rem;
+    border: solid 2px red;
+    color: #666;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+a.Include-Product-Selector::before {
+    content: 'This will be replaced with the Product Selector. Deleting this will remove a large portion of content from your page.';
+    color: red;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+a.Include-Product-Selector::after {
+    content: 'Instructions: Click "insert/edit link" and select the "Include-Product-Selector" class. Enter a short description in the URL and Text to display.';
+    color: black;
+    display: block;
+}
+
+[class*="Table-Expandable"] {
+    border: 2px solid green;
+}
+
+.Table-Expandable {  
+}
+
+.Table-Expandable-Initial-Open {
+}
+
+.Table-Expandable-All-Open {
+}
+
+.Table-Expandable-Panel {
+}
+
+.Table-Expandable-Panel-Initial-Open {
+}
+
+.Table-Expandable-Panel-All-Open {
+}
+
+.Hidden {
+    border: 2px solid orange;
+    display: inherit;
+}
+
+.Date {
+}
+
+[class*="Date"] {
+    position: relative;
+    border-bottom: .0375em solid green;
+}
+
+    [class*="Date"]:before {
+        position: absolute;
+        content: 'Current Date';
+        top: -1em;
+        font-size: .3em;
+        width: 8em;
+        color: green;
+    }
+
+.Include-Staff-Table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 4rem;
+    padding: 2rem;
+    border: solid 2px red;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: #666;
+}
+
+.Include-Staff-Table::before {
+    content: 'This will be replaced with the Staff Table Search Bar. Deleting this will remove a large portion of content from your page.';
+    color: red;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.Include-Staff-Table::after {
+    content: 'Instructions: Click "insert/edit link", and select the "Include-Staff-Table" class.';
+    display: block;
+    color: #666;
+}
+
+#Staff-Table::before {
+    display: table-caption;
+    color: red;
+    border: solid 2px red;
+    padding: 1rem;
+    white-space: pre;
+    content: "This table format will be converted into a sorting form. \A Indicate the desired sortable categories using the table header. Each column will be used for sortable values. \A If multiple values are needed, indicate this with square brackets and commas between values. Example: [Value 1, Value 2, Value 3] \A Certain columns may be hidden within the form by the site developer depending on it's search relevance and/or complexity.";
+}
+
+.Responsive-Zoom {
+    visibility:visible;
+}
+
+.List-Social {
+}
+
+.Table-List-Logo-Center {
+}
+
+/*Included here are all icons listed in the content guide including fontAwesome icons so they show up in cms. These will show in the wysiwyg drop down in cms. Recommend placing at the END of your cms style file so that they are at the end of the class list dropdown. Remove any unwanted or unneeded icons. Remove this comment before publishing.
+*/
+.icon-personal {
+}
+.icon-personal-2 {
+}
+.icon-personal-3 {
+}
+.fa-user {
+}
+.icon-business {
+}
+.icon-business-o {
+}
+.fa-building {
+}
+.icon-bank {
+}
+.icon-insurance {
+}
+.icon-wealth {
+}
+.icon-lending {
+}
+.icon-lending-2 {
+}
+.icon-home {
+}
+.icon-home-o {
+}
+.icon-house-car {
+}
+.fa-car {
+}
+
+.icon-wallet {
+}
+.icon-wallet-o {
+}
+.icon-money {
+}
+.icon-money-o {
+}
+.icon-calculator-1 {
+}
+.icon-calculator-2 {
+}
+.icon-calculator-3 {
+}
+.fa-calculator {
+}
+.icon-piggy-bank {
+}
+.icon-piggy-bank-2 {
+}
+.icon-piggy-bank-o {
+}
+.icon-hand-coin-o {
+}
+.icon-person-plus {
+}
+.icon-badge-o {
+}
+.icon-credit-card {
+}
+.icon-credit-cards-1-o {
+}
+.icon-credit-cards-2-o {
+}
+.icon-check {
+}
+.icon-check-o {
+}
+.icon-computer {
+}
+.icon-computer-2 {
+}
+.icon-computer-3 {
+}
+.icon-computer-graph {
+}
+.icon-computer-checkmark {
+}
+.icon-devices-o {
+}
+.icon-cell-phone {
+}
+.icon-mobile-o {
+}
+.icon-light-bulb {
+}
+.icon-light-bulb-o {
+}
+.icon-rates {
+}
+.icon-chart-o {
+}
+.fa-area-chart {
+}
+.icon-sprout {
+}
+.icon-atm-1 {
+}
+.icon-atm-2 {
+}
+.icon-grad-hat-o {
+}
+.icon-chess-o {
+}
+
+.icon-alert {
+}
+.icon-lock {
+}
+.fa-lock{
+}
+.icon-login {
+}
+.icon-login-key {
+}
+.icon-folder {
+}
+.icon-form-o {
+}
+.icon-calendar-o {
+}
+.icon-security {
+}
+.icon-shield-lock {
+}
+.icon-shield-o {
+}
+.icon-tools {
+}
+.icon-phone {
+}
+.fa-phone {
+}
+.fa-fax{
+}
+.icon-map {
+}
+.fa-map-marker {
+}
+.icon-map-marker-o {
+}
+.fa-location-arrow{
+}
+.fa-search {
+}
+.icon-cloud {
+}
+.icon-video {
+}
+.fa-question-circle {
+}
+.fa-check { 
+}
+.icon-checkmark {
+}
+.fa-circle-check {
+}
+.fa-check-square {
+}
+.fa-comment {
+}
+.icon-chat {
+}
+.icon-chat-o {
+}

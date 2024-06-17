@@ -1,0 +1,11 @@
+﻿<p>Please add a paragraph below with a label and a rate in it following the format of <strong>label comma rate</strong>. Avoid using characters other than alphanumeric. The script only looks for a numbers and a percent sign after the comma. Do not place any other text here. Place instead where the rate will be placed inside content.</p>
+<p>Date: 4/13/2023 12:00 PM</p>
+<p>Example Rate: 2.99%</p>
+<p>New and Used Auto: 6.14%</p>
+<p>Vacation: 6.50%</p>
+<p>VISA: 9.80%</p>
+<p>Regular Savings: 0.0500%</p>
+<p>Money Management: 1.1000%</p>
+<p>5 Year Term Deposit: 4.0000%</p>
+<p>HELOC: 8.00%</p>
+<p>Home Improvement: 7.99%</p>

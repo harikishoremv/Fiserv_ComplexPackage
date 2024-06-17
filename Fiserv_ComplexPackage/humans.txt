@@ -1,0 +1,93 @@
+# What is humans.txt? It's a TXT file that contains information about the different people who have contributed to building this website.
+# This helps for questions about the functionallity and future development.
+# For more information on this file visit humanstxt.org
+
+# TEAM
+Name, Fiserv - Design, HTML, CSS, Javascript, Fiserv Content Manager Implementation, Content Integration via Fiserv Content Manager
+Name, Fiserv - Project Management, Site Mapping, Content Integration via Fiserv Content Manager
+
+# THANKS
+All the team at BANK NAME HERE
+
+# TECHNOLOGY COLOPHON
+CSS Custom Properties 2.8.0 by Paul Richards, Copyright 2021 Fiserv. All rights reserved.
+Dev Content Guide 1.0.1 by Jesse Fowler, Copyright 2020 Fiserv. All rights reserved.
+Google Analytics 1.0.0 by Jesse Fowler, Copyright 2021 Fiserv. All rights reserved.
+Fiserv Construct 2.2.0 by JP Larson, Copyright 2020 Fiserv. All rights reserved.
+JSONP Construct 1.0.0 by Jesse Fowler, Copyright 2023 Fiserv. All rights reserved.
+Geocoder 1.0.0 by Jesse Fowler, Copyright 2023 Fiserv. All rights reserved.
+Fiserv Map 1.0.0 by Jesse Fowler, Copyright 2023 Fiserv. All rights reserved.
+Location Finder 1.1.0 by Jesse Fowler, Copyright 2023 Fiserv. All rights reserved.
+Page Class 3.1.1 by Jesse Fowler, Copyright 2018 Fiserv. All rights reserved.
+Randomizer 2.0.1 by Jesse Fowler, Copyright 2022 Fiserv. All rights reserved.
+Scroll Trigger 4.2.1 by JP Larson, Copyright 2021 Fiserv. All rights reserved.
+Get Queries 3.0.1 by JP Larson, Copyright 2020 Fiserv. All rights reserved.
+Language Selector 1.4.0 by JP Larson, Copyright 2021 Fiserv. All rights reserved.
+jQuery 3.6.0 by JS Foundation, (c) JS Foundation and other contributors | jquery.org/license
+jQuery Mobile 1.5.0 by jQuery Foundation, Inc., Copyright 2010, 2017 jQuery Foundation, Inc.
+Modernizr 2.8.3 by Modernizr.com Team, MIT & BSD | Modernizr.com
+Debounce 1.0.0 by Jesse Fowler, Copyright 2014 Fiserv. All rights reserved.
+Text Replace 2.0.0 by Jesse Fowler, Copyright 2021 Fiserv. All rights reserved.
+Animate CSS 3.7.0 by Daniel Eden, Copyright (c) 2013 Daniel Eden. https://daneden.github.io/animate.css/
+Font Awesome 1.6.0 by @davegandy, http://fontawesome.io/license
+Icon Font 3.4.0 by Kristen Rogers, Copyright 2018 Fiserv. All rights reserved.
+Font Poppins 1.0.0 by Paul Richards, Copyright 2023 Fiserv. All rights reserved.
+Font Roboto 1.0.1 by Kristen Rogers, Copyright 2022 Fiserv. All rights reserved.
+Slideshow 4.6.0 by Jesse Fowler, Copyright 2015 Fiserv. All rights reserved.
+Fiserv CSS 4.2.0 by Paul Richards, Copyright 2018 Fiserv. All rights reserved.
+CMS Tooltips 1.1.0 by Paul Richards, Copyright 2021 Fiserv. All rights reserved.
+Browser Upgrade 1.0.0 by Paul Richards, Copyright 2020 Fiserv. All rights reserved.
+Table Location 1.2.0 by Kristen Rogers, Copyright 2019 Fiserv. All rights reserved.
+Table Grid 2.6.0 by JP Larson, Copyright 2018 Fiserv. All rights reserved.
+Table Privacy 1.4.0 by Kristen Rogers, Copyright 2020 Fiserv. All rights reserved.
+Table Timeline 1.0.1 by Jesse Fowler, Copyright 2020 Fiserv. All rights reserved.
+Quicklinks Section 1.5.1 by Paul Richards, Copyright 2021 Fiserv. All rights reserved.
+Rates Section 1.0.0 by Paul Richards, Copyright 2023 Fiserv. All rights reserved.
+Rate Updater 2.0.0 by Jesse Fowler, Copyright 2019 Fiserv. All rights reserved.
+CMS Include 3.3.0 by JP Larson, Copyright 2021 Fiserv. All rights reserved.
+Ajax Post 3.3.0 by JP Larson, Copyright 2021 Fiserv. All rights reserved.
+Ajax Form 4.3.0 by JP Larson, Copyright 2021 Fiserv. All rights reserved.
+Side Navigation Generator 5.1.0 by Jesse Fowler, Copyright 2014 Fiserv. All rights reserved.
+Replace With Checkmarks 2.0.0 by Jesse Fowler, Copyright 2017 Fiserv. All rights reserved.
+Chart 1.1.1 by Jesse Fowler, Copyright 2020 Rami Yushuvaev & Jesse Fowler. MIT License.
+Product Comparison 1.2.0 by Jesse Fowler and Kristen Rogers, Copyright 2022 Fiserv. All rights reserved.
+Text Resizer 5.0.1 by Jesse Fowler, Copyright 2018 Fiserv. All rights reserved.
+Online Banking 1.23.0 by JP Larson, Copyright 2021 Fiserv. All rights reserved.
+Validate Form 2.0.1 by JP Larson, Copyright 2021 Fiserv. All rights reserved.
+Field History 2.0.1 by JP Larson, Copyright 2018 Fiserv. All rights reserved.
+Personalization 3.0.2 by Jesse Fowler, Copyright 2015 Fiserv. All rights reserved.
+Site Notice 5.5.0 by Jesse Fowler, Copyright 2018 Fiserv. All rights reserved.
+Panel Navigation 6.2.0 by Paul Richards, Copyright 2016 Fiserv. All rights reserved.
+Smooth Scroll 4.0.1 by JP Larson, Copyright 2018 Fiserv. All rights reserved.
+Product Selector 3.3.0 by JP Larson, Copyright 2021 Fiserv. All rights reserved.
+Accessibility 1.1.2 by Paul Richards, Copyright 2021 Fiserv. All rights reserved.
+Accessibility Mode 3.1.0 by Paul Richards, Copyright 2017 Fiserv. All rights reserved.
+Accessibility Tab Expand 2.1.3 by JP Larson, Copyright 2018 Fiserv. All rights reserved.
+App Banners 3.0.0 by Jesse Fowler, Copyright 2018 Fiserv. All rights reserved.
+Anniversary Badge 2.0.2 by Jesse Fowler, Copyright 2018 Fiserv. All rights reserved.
+Captcha 4.2.0 by Jesse Fowler & JP Larson, Copyright 2021 Fiserv. All rights reserved.
+Error Pages 2.3.0 by JP Larson, Copyright 2018 Fiserv. All rights reserved.
+Responsive Table 2.0.0 by Kristen Rogers, Copyright 2016 Fiserv. All rights reserved.
+Expander 5.3.0 by Jesse Fowler & Kristen Rogers, Copyright 2015 Fiserv. All rights reserved.
+Speedbump 2.2.0 by Jesse Fowler, Copyright 2018 Fiserv. All rights reserved.
+Scroll To 1.3.2 by Jesse Fowler, Copyright 2015 Fiserv. All rights reserved.
+Toolbar Side 6.1.0 by Jesse Fowler, Copyright 2018 Fiserv. All rights reserved.
+Tour 3.0.2 by JP Larson, Copyright 2018 Fiserv. All rights reserved.
+Weather 4.3.0 by Jesse Fowler, Copyright 2014 Fiserv. All rights reserved.
+Lightcase 4.3.0 by @cornelboppart, GPL license
+Count Up 1.0.1 by Gareth Nolan, Copyright 2015. MIT license
+Pageless Pages 2.10.0 by JP Larson, Copyright 2022 Fiserv. All rights reserved.
+Contrast Class 2.3.0 by Jesse Fowler, Copyright 2019 Fiserv. All rights reserved.
+Current Date 1.0.0 by Paul Richards, Copyright 2022 Fiserv. All rights reserved.
+Sort Table 1.4.0 by JP Larson, Copyright 2020 Fiserv. All rights reserved.
+Staff Table 1.2.0 by JP Larson, Copyright 2020 Fiserv. All rights reserved.
+Responsive Zoom 4.1.0 by Jesse Fowler, Copyright 2015 Fiserv. All rights reserved.
+Resize Class 2.0.0 by Jesse Fowler, Copyright 2019 Fiserv. All rights reserved.
+Fiserv Forms 1.9.0 by JP Larson, Copyright 2021 Fiserv. All rights reserved.
+Pseudo Select 4.3.0 by JP Larson, Copyright 2021 Fiserv. All rights reserved.
+Page Transitions 1.0.0 by Paul Richards, Copyright 2022 Fiserv. All rights reserved.
+Footer Default 2.0.2 by Paul Richards & Jesse Fowler, Copyright 2022 Fiserv. All rights reserved.
+Template Default 2.2.0 by Jesse Fowler, Copyright 2019 Fiserv. All rights reserved.
+Sample Pages 1.3.0 by Kristen Rogers, Copyright 2023 Fiserv. All rights reserved.
+Design 209 2.0.2 by Paul Richards, Copyright 2023 Fiserv. All rights reserved.
+Mockups 1.6.0 by Cassie Hamann, Copyright 2021 Fiserv. All rights reserved.

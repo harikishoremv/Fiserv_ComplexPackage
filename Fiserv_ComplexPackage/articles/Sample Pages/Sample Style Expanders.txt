@@ -1,0 +1,50 @@
+﻿<table class="Subsection-Table-Text-Left-Half" style="background-image: url('https://whstage1.secureinternetbank.com/Code-Library/Design-208/Design-208-2.0.0/images/image-block-family.jpg');">
+    <tbody>
+        <tr>
+            <td>
+                <h1>Checking Accounts</h1>
+                <p>We offer a variety of personal checking accounts. Take a look at the features and choose the one that best fits your needs.</p>
+                <p><a href="#Compare-Accounts" class="Button1">Compare Accounts</a><a href="Contact-Us" class="Button2">Contact us</a></p>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<table class="Subsection-Table">
+    <tbody>
+        <tr>
+            <td>
+                <table class="Table-Expandable" style="width: 100%;">
+                    <caption>
+                        <h2><a id="Additional-Services"></a>Additional Services Expanding Content</h2>
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Our goal is to provide financial products and services that enhance your personal banking experience.</p>
+                                <ul>
+                                    <li>Overdraft Protection</li>
+                                    <li>Wires</li>
+                                    <li>Safe Deposit Boxes</li>
+                                    <li>Notary Services</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="Table-Expandable" style="width: 100%;">
+                    <caption>
+                        <h2><a id="Wire-Transfers"></a>Wire Transfers</h2>
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Business partners, vendors or other service providers may require payment through wire transfer so they have immediate access to the funds you send. You can count on Millennium Bank for assistance in these instances.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>

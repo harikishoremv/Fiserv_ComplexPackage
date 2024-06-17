@@ -1,0 +1,328 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D8691C85-409A-4A6F-B7CE-E91C1E98CA29}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cms.Web.ClientSite</RootNamespace>
+    <AssemblyName>Cms.Web.ClientSite</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44330</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.6, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.6\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="articles\Content Guide.txt" />
+    <Content Include="articles\Error 403.txt" />
+    <Content Include="articles\Error 404.txt" />
+    <Content Include="articles\Error 500.txt" />
+    <Content Include="articles\Footer Links.txt" />
+    <Content Include="articles\Home.txt" />
+    <Content Include="articles\Location Finder Table.txt" />
+    <Content Include="articles\Misc\Mailbump Disclaimer.txt" />
+    <Content Include="articles\Misc\Speedbump Disclaimer.txt" />
+    <Content Include="articles\Panel Navigation.txt" />
+    <Content Include="articles\Privacy Policy.txt" />
+    <Content Include="articles\Product Comparison Table.txt" />
+    <Content Include="articles\Rate Updater.txt" />
+    <Content Include="articles\Sample Pages\Panel Navigation for Sample Pages.txt" />
+    <Content Include="articles\Sample Pages\Sample Contact Us.txt" />
+    <Content Include="articles\Sample Pages\Sample Education Center.txt" />
+    <Content Include="articles\Sample Pages\Sample Locations with Images.txt" />
+    <Content Include="articles\Sample Pages\Sample Locations without Images.txt" />
+    <Content Include="articles\Sample Pages\Sample News Events.txt" />
+    <Content Include="articles\Sample Pages\Sample Style Expanders.txt" />
+    <Content Include="articles\Sample Pages\Sample Style Image Half Sections.txt" />
+    <Content Include="articles\Sample Pages\Sample Style Image Sections.txt" />
+    <Content Include="articles\Sample Pages\Sample Style No Images.txt" />
+    <Content Include="articles\Sample Pages\Sample Team.txt" />
+    <Content Include="articles\Sample Pages\Sample Terms of Use.txt" />
+    <Content Include="articles\Sample Style.txt" />
+    <Content Include="articles\Site Notice.txt" />
+    <Content Include="articles\Thank You.txt" />
+    <Content Include="articles\Top Navigation.txt" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="css\fiserv.css" />
+    <Content Include="css\font-awesome-min.css" />
+    <Content Include="css\style-cms-generated.css" />
+    <Content Include="css\style-cms.css" />
+    <Content Include="css\style-generated.css" />
+    <Content Include="css\style.css" />
+    <Content Include="customContent.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="Dev-Content-Guide.aspx" />
+    <Content Include="error403.aspx" />
+    <Content Include="error404.aspx" />
+    <Content Include="error500.aspx" />
+    <Content Include="fonts\lightcase.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="healthcheck.html" />
+    <Content Include="humans.txt" />
+    <Content Include="images\App-Icon-Android-Business.png" />
+    <Content Include="images\App-Icon-Android-Tablet-Business.png" />
+    <Content Include="images\App-Icon-Android-Tablet.png" />
+    <Content Include="images\App-Icon-Android.png" />
+    <Content Include="images\App-Icon-iPad-Business.png" />
+    <Content Include="images\App-Icon-iPad.png" />
+    <Content Include="images\App-Icon-iPhone-Business.png" />
+    <Content Include="images\App-Icon-iPhone.png" />
+    <Content Include="images\bank-name-logo.svg" />
+    <Content Include="images\bg-abstract-2.jpg" />
+    <Content Include="images\capFrameBtn.png" />
+    <Content Include="images\capFrameLeft.png" />
+    <Content Include="images\capFrameMid.png" />
+    <Content Include="images\capFrameRight.png" />
+    <Content Include="images\circles.svg" />
+    <Content Include="images\Dark_Clear.svg" />
+    <Content Include="images\Dark_Cloudy.svg" />
+    <Content Include="images\Dark_Fog.svg" />
+    <Content Include="images\Dark_HeavyRain.svg" />
+    <Content Include="images\Dark_HeavySnow.svg" />
+    <Content Include="images\Dark_Ice.svg" />
+    <Content Include="images\Dark_LightIce.svg" />
+    <Content Include="images\Dark_LightRain.svg" />
+    <Content Include="images\Dark_LightSnow.svg" />
+    <Content Include="images\Dark_PartlyCloudy.svg" />
+    <Content Include="images\Dark_Rain.svg" />
+    <Content Include="images\Dark_Snow.svg" />
+    <Content Include="images\Dark_Tstorms.svg" />
+    <Content Include="images\headshot.jpg" />
+    <Content Include="images\Light_Clear.svg" />
+    <Content Include="images\Light_Cloudy.svg" />
+    <Content Include="images\Light_Fog.svg" />
+    <Content Include="images\Light_HeavyRain.svg" />
+    <Content Include="images\Light_HeavySnow.svg" />
+    <Content Include="images\Light_Ice.svg" />
+    <Content Include="images\Light_LightIce.svg" />
+    <Content Include="images\Light_LightRain.svg" />
+    <Content Include="images\Light_LightSnow.svg" />
+    <Content Include="images\Light_PartlyCloudy.svg" />
+    <Content Include="images\Light_Rain.svg" />
+    <Content Include="images\Light_Snow.svg" />
+    <Content Include="images\Light_Tstorms.svg" />
+    <Content Include="images\mask-curve.svg" />
+    <Content Include="images\Raster-Clear.png" />
+    <Content Include="images\Raster-Cloudy.png" />
+    <Content Include="images\Raster-Fog.png" />
+    <Content Include="images\Raster-HeavyRain.png" />
+    <Content Include="images\Raster-HeavySnow.png" />
+    <Content Include="images\Raster-Ice.png" />
+    <Content Include="images\Raster-LightIce.png" />
+    <Content Include="images\Raster-LightRain.png" />
+    <Content Include="images\Raster-LightSnow.png" />
+    <Content Include="images\Raster-PartlyCloudy.png" />
+    <Content Include="images\Raster-Rain.png" />
+    <Content Include="images\Raster-Snow.png" />
+    <Content Include="images\Raster-Tstorms.png" />
+    <Content Include="images\securityBg.jpg" />
+    <Content Include="images\SO1.gif" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\timeline-sample-1.jpg" />
+    <Content Include="images\timeline-sample-2.jpg" />
+    <Content Include="inc_anniversary-badge.aspx" />
+    <Content Include="inc_cms-include.aspx" />
+    <Content Include="inc_contact-form.aspx" />
+    <Content Include="inc_footer.aspx" />
+    <Content Include="inc_form-state-list.aspx" />
+    <Content Include="inc_head.aspx" />
+    <Content Include="inc_header.aspx" />
+    <Content Include="inc_lang.aspx" />
+    <Content Include="inc_primary-nav.aspx" />
+    <Content Include="inc_Product-Selector.aspx" />
+    <Content Include="inc_tour.aspx" />
+    <Content Include="inc_weather.aspx" />
+    <Content Include="js\construct.js" />
+    <Content Include="js\fiserv.js" />
+    <Content Include="js\script-generated.js" />
+    <Content Include="js\script.js" />
+    <Content Include="Mailbump.aspx" />
+    <Content Include="mockups\css\fiserv.css" />
+    <Content Include="mockups\css\lightcase.css" />
+    <Content Include="mockups\css\style-generated.css" />
+    <Content Include="mockups\default.aspx" />
+    <Content Include="mockups\fonts\fontawesome-webfont.svg" />
+    <Content Include="mockups\fonts\lightcase.svg" />
+    <Content Include="mockups\Homepage-Version-01.aspx" />
+    <Content Include="mockups\images\Fiserv_logo.png" />
+    <Content Include="mockups\images\Homepage-Version-01.jpg" />
+    <Content Include="mockups\images\Mobile-Version-01.jpg" />
+    <Content Include="mockups\images\Navigation-Version-01.jpg" />
+    <Content Include="mockups\images\Secondary-Page-Version-01-Thumbnail.jpg" />
+    <Content Include="mockups\images\Secondary-Page-Version-01.jpg" />
+    <Content Include="mockups\inc_overview-referrer.aspx" />
+    <Content Include="mockups\js\jquery-1.11.3.min.js" />
+    <Content Include="mockups\js\lightcase.js" />
+    <Content Include="mockups\Mobile-Version-01.aspx" />
+    <Content Include="mockups\Navigation-Version-01.aspx" />
+    <Content Include="mockups\Secondary-Page-Version-01.aspx" />
+    <Content Include="robots.txt" />
+    <Content Include="sendmail52.aspx" />
+    <Content Include="Speedbump.aspx" />
+    <Content Include="Test-Home.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ContentWriter.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\Fiserv.eot" />
+    <Content Include="fonts\Fiserv.ttf" />
+    <Content Include="fonts\Fiserv.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\lightcase.eot" />
+    <Content Include="fonts\lightcase.ttf" />
+    <Content Include="fonts\lightcase.woff" />
+    <Content Include="fonts\poppins-v20-latin-100.woff" />
+    <Content Include="fonts\poppins-v20-latin-100.woff2" />
+    <Content Include="fonts\poppins-v20-latin-300.woff" />
+    <Content Include="fonts\poppins-v20-latin-300.woff2" />
+    <Content Include="fonts\poppins-v20-latin-500.woff" />
+    <Content Include="fonts\poppins-v20-latin-500.woff2" />
+    <Content Include="fonts\poppins-v20-latin-700.woff" />
+    <Content Include="fonts\poppins-v20-latin-700.woff2" />
+    <Content Include="fonts\poppins-v20-latin-900.woff" />
+    <Content Include="fonts\poppins-v20-latin-900.woff2" />
+    <Content Include="fonts\poppins-v20-latin-regular.woff" />
+    <Content Include="fonts\poppins-v20-latin-regular.woff2" />
+    <Content Include="fonts\roboto-v30-latin-100.woff" />
+    <Content Include="fonts\roboto-v30-latin-100.woff2" />
+    <Content Include="fonts\roboto-v30-latin-300.woff" />
+    <Content Include="fonts\roboto-v30-latin-300.woff2" />
+    <Content Include="fonts\roboto-v30-latin-500.woff" />
+    <Content Include="fonts\roboto-v30-latin-500.woff2" />
+    <Content Include="fonts\roboto-v30-latin-700.woff" />
+    <Content Include="fonts\roboto-v30-latin-700.woff2" />
+    <Content Include="fonts\roboto-v30-latin-900.woff" />
+    <Content Include="fonts\roboto-v30-latin-900.woff2" />
+    <Content Include="fonts\roboto-v30-latin-regular.woff" />
+    <Content Include="fonts\roboto-v30-latin-regular.woff2" />
+    <Content Include="mockups\fonts\fontawesome-webfont.eot" />
+    <Content Include="mockups\fonts\fontawesome-webfont.ttf" />
+    <Content Include="mockups\fonts\fontawesome-webfont.woff" />
+    <Content Include="mockups\fonts\fontawesome-webfont.woff2" />
+    <Content Include="mockups\fonts\fontawesome.otf" />
+    <Content Include="mockups\fonts\lightcase.eot" />
+    <Content Include="mockups\fonts\lightcase.ttf" />
+    <Content Include="mockups\fonts\lightcase.woff" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\Fiserv_ComplexPackage.csproj.AssemblyReference.cache" />
+    <Content Include="packager-config.json" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49354</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44330/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

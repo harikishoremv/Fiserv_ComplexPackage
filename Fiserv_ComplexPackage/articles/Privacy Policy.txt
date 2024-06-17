@@ -1,0 +1,235 @@
+﻿<table class="Subsection-Table">
+<tbody>
+<tr>
+<td>
+<h1>Privacy Policy</h1>
+<p><a href="#" class="Button1">Print out Privacy Policy</a></p>
+<p style="text-align: right;">Updated <span class="Date">MM/YY</span></p>
+<table class="Table-Privacy" style="width: 100%;">
+<tbody>
+<tr><th style="width: 20%;">
+<p class="Uppercase">Facts</p>
+</th>
+<td>
+<p class="Uppercase"><strong>What does <span class="Missing">Bank Name</span> do with your personal information?</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Table-Privacy" style="width: 100%;">
+<tbody>
+<tr><th style="width: 20%;">
+<p>Why?</p>
+</th>
+<td>
+<p>Financial companies choose how they share your personal information. Federal law gives consumers the right to limit some but not all sharing. Federal law also requires us to tell you how we collect, share, and protect your personal information. Please read this notice carefully to understand what we do.</p>
+</td>
+</tr>
+<tr><th style="width: 20%;">
+<p>What?</p>
+</th>
+<td>
+<p>The types of personal information we collect and share depend on the product or service you have with us. This information can include:</p>
+<ul>
+<li>Social Security number and account balances</li>
+<li>credit history and credit scores</li>
+<li>income and payment history</li>
+</ul>
+<p>When you are <em>no longer</em> our <span class="Missing">member/customer</span>, we continue to share your information as described in this notice.</p>
+</td>
+</tr>
+<tr><th style="width: 20%;">
+<p>How?</p>
+</th>
+<td>
+<p>All financial companies need to share <span class="Missing">members&rsquo;/customers&rsquo;</span> personal information to run their everyday business. In the section below, we list the reasons financial companies can share their <span class="Missing">members&rsquo;/customers&rsquo;</span> personal information; the reasons <span class="Missing">Bank Name</span> chooses to share; and whether you can limit this sharing.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Table-Privacy" style="width: 100%;">
+<thead>
+<tr><th>
+<p style="text-align: left;">Reasons we can share your personal information</p>
+</th><th style="width: 15%;">
+<p>Does <span class="Missing">Bank Name</span> share?</p>
+</th><th style="width: 15%;">
+<p>Can you limit this sharing?</p>
+</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>For our everyday business purposes- </strong><br />such as to process your transactions, maintain your account(s), respond to court orders and legal investigations, or to report to credit bureaus</p>
+</td>
+<td style="text-align: center;">
+<p>Yes</p>
+</td>
+<td style="text-align: center;">
+<p>No</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>For our marketing purposes-</strong><br />to offer our products and services to you</p>
+</td>
+<td style="text-align: center;">
+<p>Yes</p>
+</td>
+<td style="text-align: center;">
+<p>No</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>For joint marketing with other financial companies</strong></p>
+</td>
+<td style="text-align: center;">
+<p>Yes</p>
+</td>
+<td style="text-align: center;">
+<p>No</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>For our affiliates&rsquo; everyday business purposes-<br /></strong>information about your transactions and experiences</p>
+</td>
+<td style="text-align: center;">
+<p>No</p>
+</td>
+<td style="text-align: center;">
+<p>We don't share</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>For our affiliates&rsquo; everyday business purposes-<br /></strong>information about your creditworthiness<strong><br /></strong></p>
+</td>
+<td style="text-align: center;">
+<p>No</p>
+</td>
+<td style="text-align: center;">
+<p>We don't share</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>For our affiliates to market to you</strong></p>
+</td>
+<td style="text-align: center;">
+<p>No</p>
+</td>
+<td style="text-align: center;">
+<p>We don't share</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>For non-affiliates to market to you </strong></p>
+</td>
+<td style="text-align: center;">
+<p>No</p>
+</td>
+<td style="text-align: center;">
+<p>We don't share</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Table-Privacy" style="width: 100%;">
+<tbody>
+<tr><th style="width: 20%;">
+<p>Questions?</p>
+</th>
+<td>
+<p class="Missing">Call toll-free (123) 456-7890 or go to BankName.com</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Table-Privacy" style="width: 100%;">
+<caption>
+<p>What we do</p>
+</caption>
+<tbody>
+<tr>
+<td>
+<p><strong>How does <span class="Missing">Bank Name</span> </strong><strong>protect my personal information?</strong></p>
+</td>
+<td>
+<p>To protect your personal information from unauthorized access and use, we use security measures that comply with federal law. These measures include computer safeguards and secured files and buildings.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>How does <span class="Missing">Bank Name</span></strong> <strong>collect my personal information?</strong></p>
+</td>
+<td>
+<p>We collect your personal information, for example, when you</p>
+<ul>
+<li>open an account or deposit money</li>
+<li>pay your bills or use your credit or debit card</li>
+<li>apply for financing</li>
+</ul>
+<p>We also collect your personal information from others, such as credit bureaus, affiliates, or other companies.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Why can&rsquo;t I limit all sharing?</strong></p>
+</td>
+<td>
+<p>Federal law gives you the right to limit only</p>
+<ul>
+<li>sharing for affiliates&rsquo; everyday business purposes &ndash; information about your creditworthiness</li>
+<li>affiliates from using your information to market to you</li>
+<li>sharing for nonaffiliates to market to you</li>
+</ul>
+<p>State law and individual companies may give you additional rights to limit sharing.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Table-Privacy" style="width: 100%;">
+<caption><p>Definitions</p></caption>
+<tbody>
+<tr>
+<td>
+<p><strong>Affiliates</strong></p>
+</td>
+<td>
+<p>Companies related by common ownership or control. They can be financial and nonfinancial companies.</p>
+<ul>
+<li><em><span class="Missing">Bank Name</span> has no affiliates.</em></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Nonaffiliates</strong></p>
+</td>
+<td>
+<p>Companies not related by common ownership or control. They can be financial and nonfinancial companies.</p>
+<ul>
+<li><em><span class="Missing">Bank Name</span> does not share with our nonaffiliates so they can market to you.</em></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Joint Marketing</strong></p>
+</td>
+<td>
+<p>A formal agreement between nonaffiliated financial companies that together market financial products or services to you.</p>
+<ul>
+<li><em>Our joint marketing partners include <span class="Missing">members&rsquo;/customers&rsquo;</span> Financial Services.</em></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>

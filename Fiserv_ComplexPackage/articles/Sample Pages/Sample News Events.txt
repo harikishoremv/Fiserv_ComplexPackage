@@ -1,0 +1,153 @@
+﻿<table class="Subsection-Table-Text-Left" style="background-image: url(https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.2.0/images/background-man-tablet.jpg);">
+    <tbody>
+        <tr>
+            <td>                
+                <h1>News &amp; Events</h1>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="Subsection-Table">
+    <tbody>
+        <tr>
+            <td>
+                <h2>Newsletter</h2>
+                <p>Sign up for the monthly newsletter from First Federal and receive the latest news from your community
+                    bank, including fraud alerts, financial tips, and upcoming events, delivered right to your inbox.
+                </p>
+                <p><a href="speedbump.aspx?link=https://firstfedweb.us13.list-manage.com/subscribe?u=baaaaefc775926f78e6ffee7f&amp;id=d388591778"
+                        class="Button1">Subscribe</a></p>
+                <h2>Past Newsletters</h2>
+                <table style="width: 100%;" class="Table-Grid-Half-Panel-Grow-Outline-Green">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h3>2023</h3>
+                                <table style="width: 100%;" class="Table-Grid-Half">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <ul class="List-PDF"> 
+													<li><a href="#">February</a></li>
+                                                    <li><a href="#">January</a></li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>2022</h3>
+                                <table style="width: 100%;" class="Table-Grid-Half">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <ul class="List-PDF">
+                                                    <li><a href="#">November</a>
+                                                    </li>
+                                                    <li><a href="#">July</a>
+                                                    </li>
+                                                    <li><a href="#">June</a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <ul class="List-PDF">
+                                                    <li><a href="#">May</a>
+                                                    </li>
+                                                    <li><a href="#">April</a>
+                                                    </li>
+                                                    <li><a href="#">February</a>
+                                                    </li>
+                                                    <li><a href="#">January</a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="Subsection-Table">
+    <tbody>
+        <tr>
+            <td>
+                <h2>News &amp; Press</h2>
+                <table style="width: 100%;" class="Table-Grid-Panel">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h3>Jane Powell Promoted to Branch Manager</h3>
+                                <p><em>January 2023</em></p>
+                                <p><strong>Jane Powell</strong> has been promoted to Branch Manager of the Brookfield
+                                    Branch of Bank Name. Sara was previously the Branch Manager of the Milwaukee Branch
+                                    where she focused on branch responsibilities and team development.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum eros in nulla
+                                    rutrum, maximus vulputate turpis ullamcorper. Duis non vehicula ipsum. Nullam vel
+                                    ipsum consequat nisi varius faucibus eu a ipsum. Donec risus diam, porta ut nulla
+                                    eu, pellentesque tincidunt sapien. Nunc et sapien non neque blandit rhoncus vel ut
+                                    arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a auctor purus.
+                                    Aenean quis posuere lectus. Etiam quis metus vulputate, suscipit turpis nec,
+                                    faucibus mauris. Vestibulum pellentesque nunc vel mi auctor maximus. Maecenas
+                                    commodo non dolor ultrices aliquet. Nunc ut elit eget purus condimentum venenatis
+                                    non eu purus. Suspendisse interdum laoreet dignissim. Aenean dictum, urna tempor
+                                    pellentesque rutrum, justo lectus fringilla leo, eget aliquet dolor orci vel lorem.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table style="width: 100%;" class="Table-Grid-Panel">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h2>2023 News &amp; Press with Links</h2>
+                                <table style="width: 100%;" class="Table-Grid-Half">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <h3>February</h3>
+                                                <ul>
+                                                    <li><strong><em>2/15/2023</em></strong><br /> <a href="#">You Voted, We Donated!</a></li>
+                                                    <li><strong><em>2/5/2023</em></strong><br /> <a href="#">Bank Name Announces Grant
+                                                            Winners</a></li>
+
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <h3>January</h3>
+                                                <ul>
+                                                    <li><strong><em>1/15/2023</em></strong><br /> <a href="#">Bank Name is
+                                                            Honoring Financial Literacy Teachers During Appreciation
+                                                            Week</a></li>
+                                                    <li><strong><em>1/5/2023</em></strong><br /> <a href="#">How to Get Back
+                                                            on Track with Your Finances After the Holidays</a></li>
+
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>

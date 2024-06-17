@@ -1,0 +1,270 @@
+﻿a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+    a:hover {
+        color: #4f5858;
+    }
+/*background images and navigation overlays for full size image examples
+body.one {
+    background-image: url(../images/Design-Sample-01.jpg);
+    min-height: 3294px;
+}
+
+body.two {
+    background-image: url(../images/Design-Sample-02.jpg);
+    min-height: 2783px;
+}
+*/
+
+.side-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 432px;
+    height: 100%;
+    /* background-image: url(../images/side-nav.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: left top; */
+    z-index: 5;
+}
+
+.panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url(../images/Navigation-Sample-01.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 0 top; */
+    z-index: 2;
+}
+
+/*.two .panel {
+    background-image: url(../images/Navigation-Sample-02.jpg);
+    background-position: right 0px;
+}*/
+
+
+/*Timeline specifics*/
+#phase-one {
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    width: 32%;
+}
+
+ul.template li#phase-one {
+    width: 40%;
+}
+
+#phase-two {
+    background: rgba(0,0,0,.4);
+    width: 20%;
+}
+
+ul.template li#phase-two {
+    width: 15%;
+}
+
+#phase-three {
+    background: rgba(0,0,0,.3);
+    width: 23%;
+}
+
+ul.template li#phase-three {
+    width: 25%;
+}
+
+#phase-four {
+    background: rgba(0,0,0,.2);
+    width: 19%;
+}
+
+ul.template li#phase-four {
+    width: 25%;
+}
+
+.phases li.active {
+    background: #ff6600 !important;
+}
+
+    .phases li.active a {
+        color: #fff;
+    }
+
+        .phases li.active a:hover {
+            color: #ddd;
+        }
+
+.months li {
+    background: #666;
+    color: #fff;
+    width: 19%;
+}
+
+/*Lightcase overwrites*/
+
+#lightcase-content a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+    #lightcase-content a:hover {
+        color: #4f5858;
+    }
+
+#lightcase-content .Button1 {
+    margin: 10px 0px 10px 0;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    vertical-align: middle;
+    background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    font-weight: 700;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    outline: 0;
+    border: 1px solid #444;
+    position: relative;
+}
+
+#lightcase-content p,
+#lightcase-content blockquote {
+    line-height: 1.5;
+    margin-top: 0.625rem;
+    margin-bottom: .625rem;
+}
+
+#lightcase-content h1, #lightcase-content h2, #lightcase-content h3, #lightcase-content h4, #lightcase-content h5, #lightcase-content h6 {
+    font-weight: 500;
+}
+
+#lightcase-content h1, #lightcase-content h2, #lightcase-content h3 {
+    position: relative;
+}
+
+#lightcase-content h2, #lightcase-content h3, #lightcase-content h4, #lightcase-content h5, #lightcase-content h6 {
+    padding-top: .875rem;
+}
+
+#lightcase-content h1, #lightcase-content h2, #lightcase-content h3, #lightcase-content h4, #lightcase-content h5 {
+    margin: 0.125rem 0;
+}
+
+#lightcase-content h2 {
+    font-weight: 200;
+}
+
+#lightcase-case {
+    border-top: 10px solid #ff6600;
+}
+
+
+#lightcase-content .checkmark:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    color: #003299;
+}
+
+#lightcase-content ul {
+    margin: 0 0 0 .4rem;
+    padding: .5rem 0 .5rem 1.5rem;
+    list-style-type: square;
+}
+
+    #lightcase-content ul li ul, #lightcase-content ol li ul {
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+#lightcase-content ol {
+    margin: 0 0 .5rem 1.250rem;
+    padding: .5rem 0;
+}
+
+    #lightcase-content ol li {
+        padding: .5rem 0 .5rem .5rem;
+    }
+
+
+        #lightcase-content ol li ul {
+            margin-left: 0;
+            padding-left: .5rem;
+        }
+
+        #lightcase-content ol li li {
+            padding: .5rem 0 .5em 1.5rem;
+        }
+
+#lightcase-content ul li p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Lightcase font sizing overwrites*/
+#lightcase-case {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+#lightcase-content h1 {
+    font-size: 2.75rem;
+    font-weight: 200;
+}
+
+#lightcase-content h2 {
+    font-size: 2.25rem;
+}
+
+#lightcase-content h3 {
+    font-size: 1.777rem;
+}
+
+#lightcase-content h4 {
+    font-size: 1.25rem;
+}
+
+#lightcase-content h5 {
+    font-size: 1.125rem;
+}
+
+/* Mobile mockups page to accommodate long scrolling page */
+body.mobile {
+    flex-direction: column;
+}
+body.mobile p {
+    color: #fff;
+    margin-top: 2em;
+}
+
+div.mobile div {
+    height: 630px;
+    overflow-y: scroll;
+    border-radius: 0.6em;
+}
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    div.mobile div::-webkit-scrollbar {
+        display: none;
+    }
+
+/* Hide scrollbar for IE, Edge and Firefox */
+div.mobile div {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}

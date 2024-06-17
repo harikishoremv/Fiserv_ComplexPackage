@@ -1,0 +1,36 @@
+﻿<table class="Table-Panel-Nav">
+<tbody>
+<tr>
+<td>
+<h3>Sample Page Layouts</h3>
+<ul>
+<li><a href="Sample-Style">Sample Subpage</a></li>
+<li><a href="Sample-Style#Compare-Accounts">Sample Anchor Link</a></li>
+<li><a href="Sample-Style-Image-Sections">Sample Style with Image Sections</a></li>
+<li><a href="Sample-Style-Image-Half-Sections">Sample Style with Image Half Sections</a></li>
+<li><a href="Sample-Style-No-Images">Sample Style with No Images</a></li>
+</ul>
+</td>
+<td>
+<h3>Special Page Layouts</h3>
+<ul>
+<li><a href="Sample-Contact-Us">Sample Contact Us</a></li>
+<li><a href="Sample-Locations-with-Images">Sample Locations with Images</a></li>
+<li><a href="Sample-Locations-without-Images">Sample Locations without Images</a></li>
+<li><a href="Sample-Team">Sample Team</a></li>
+<li><a href="Sample-Education-Center">Sample Education Center</a></li>
+<li><a href="Sample-News-Events">Sample News and Events</a></li>
+</ul>
+</td>
+<td>
+<h3>Sample Utility Pages</h3>
+<ul>
+<li><a href="Privacy-Policy">Sample Privacy Policy</a></li>
+<li><a href="speedbump.aspx?link=http://www.google.com">Sample Speedbump</a></li>
+<li><a href="Error500.aspx">Sample Error Page</a></li>
+<li><a href="Content-Guide">Content Guide</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>

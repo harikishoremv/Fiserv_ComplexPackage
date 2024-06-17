@@ -1,0 +1,4 @@
+﻿<h1>Notice</h1>
+<h2>You are now leaving <span class="Missing">Bank Name</span>'s website.</h2>
+<p>You will be linking to another website not owned or operated by <span class="Missing">Bank Name</span>. <span class="Missing">Bank Name</span> is not responsible for the availability or content of this website and does not represent either the linked website or you, should you enter into a transaction. We encourage you to review their privacy and security policies which may be different than those of <span class="Missing">Bank Name</span>.</p>
+<p>Click Accept to proceed or Cancel to go back to the previous page.</p>

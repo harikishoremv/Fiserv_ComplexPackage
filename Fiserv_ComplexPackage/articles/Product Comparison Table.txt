@@ -1,0 +1,397 @@
+﻿<table class="Product-Comparison-Table" id="data-table">
+<thead>
+<tr>
+<th>Name</th>
+<th>Bank Name</th>
+<th>Bank Rate</th>
+<th>Bank Formula</th>
+<th>Competitor 1 Name</th>
+<th>Competitor 1 Rate</th>
+<th>Competitor 1 Formula</th>
+<th>Competitor 2 Name</th>
+<th>Competitor 2 Rate</th>
+<th>Competitor 2 Formula</th>
+<th>Competitor 3 Name</th>
+<th>Competitor 3 Rate</th>
+<th>Competitor 3 Formula</th>
+<th>Competitor 4 Name</th>
+<th>Competitor 4 Rate</th>
+<th>Competitor 4 Formula</th>
+<th>Number of times interest in compounded in year</th>
+<th>Initial Deposit</th>
+<th>Term in years</th>
+<th>Disclaimer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6 month</td>
+<td>CTBC</td>
+<td>0.30%</td>
+<td>(R*(1+(C/100)/Q)**(S*Q))-R</td>
+<td>Chase</td>
+<td>0.02%</td>
+<td>(R*(1+(F/100)/Q)**(S*Q))-R</td>
+<td>Citibank</td>
+<td>1.10%</td>
+<td>(R*(1+(I/100)/Q)**(S*Q))-R</td>
+<td>Bank of America</td>
+<td>0.03%</td>
+<td>(R*(1+(L/100)/Q)**(S*Q))-R</td>
+<td>Wells Fargo</td>
+<td>&nbsp;3.75%</td>
+<td>(R*(1+(O/100)/Q)**(S*Q))-R</td>
+<td>1</td>
+<td>1,000.00</td>
+<td>0.5</td>
+<td>
+<table class="Lang-English">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">Annual Percentage Yield (APY) may change before CD is opened and funded. Penalties that may reduce CD earnings will apply to a withdrawal of principal prior to maturity. $500 minimum to open a CD and to earn stated APY. Maximum balance limits apply.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Lang-zhTraditional">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">在 CD 開放和資助之前，年收益率 (APY) 可能會發生變化。可能會減少 CD 收益的處罰將適用於在到期前提取本金。最低 500 美元可打開 CD 並賺取規定的 APY。適用最大餘額限制。</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>9 month</td>
+<td>CTBC</td>
+<td>3.05%</td>
+<td>(R*(1+(C/100)/Q)**(S*Q))-R</td>
+<td>Chase</td>
+<td>0.01%</td>
+<td>(R*(1+(F/100)/Q)**(S*Q))-R</td>
+<td>Citibank</td>
+<td>1.10%</td>
+<td>(R*(1+(I/100)/Q)**(S*Q))-R</td>
+<td>Bank of America</td>
+<td>0.03%</td>
+<td>(R*(1+(L/100)/Q)**(S*Q))-R</td>
+<td>National Average</td>
+<td>&nbsp;</td>
+<td>(R*(1+(O/100)/Q)**(S*Q))-R</td>
+<td>1</td>
+<td>$1,000.00</td>
+<td>0.75</td>
+<td>
+<table class="Lang-English">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">Annual Percentage Yield (APY) may change before CD is opened and funded. Penalties that may reduce CD earnings will apply to a withdrawal of principal prior to maturity. $500 minimum to open a CD and to earn stated APY. Maximum balance limits apply.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Lang-zhTraditional">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">在 CD 開放和資助之前，年收益率 (APY) 可能會發生變化。可能會減少 CD 收益的處罰將適用於在到期前提取本金。最低 500 美元可打開 CD 並賺取規定的 APY。適用最大餘額限制。</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>12 month</td>
+<td>CTBC</td>
+<td>3.60%</td>
+<td>(R*(1+(C/100)/Q)**(S*Q))-R</td>
+<td>Chase</td>
+<td>0.01%</td>
+<td>(R*(1+(F/100)/Q)**(S*Q))-R</td>
+<td>Citibank</td>
+<td>3.75%</td>
+<td>(R*(1+(I/100)/Q)**(S*Q))-R</td>
+<td>Bank of America</td>
+<td>0.03%</td>
+<td>(R*(1+(L/100)/Q)**(S*Q))-R</td>
+<td>National Average</td>
+<td>0.71%</td>
+<td>(R*(1+(O/100)/Q)**(S*Q))-R</td>
+<td>1</td>
+<td>$1,000.00</td>
+<td>1</td>
+<td>
+<table class="Lang-English">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">Annual Percentage Yield (APY) may change before CD is opened and funded. Penalties that may reduce CD earnings will apply to a withdrawal of principal prior to maturity. $500 minimum to open a CD and to earn stated APY. Maximum balance limits apply.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Lang-zhTraditional">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">在 CD 開放和資助之前，年收益率 (APY) 可能會發生變化。可能會減少 CD 收益的處罰將適用於在到期前提取本金。最低 500 美元可打開 CD 並賺取規定的 APY。適用最大餘額限制。 </p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>18 month</td>
+<td>CTBC</td>
+<td>3.90%</td>
+<td>(R*(1+(C/100)/Q)**(S*Q))-R</td>
+<td>Chase</td>
+<td>0.01%</td>
+<td>(R*(1+(F/100)/Q)**(S*Q))-R</td>
+<td>Citibank</td>
+<td>3.75%</td>
+<td>(R*(1+(I/100)/Q)**(S*Q))-R</td>
+<td>Bank of America</td>
+<td>0.03%</td>
+<td>(R*(1+(L/100)/Q)**(S*Q))-R</td>
+<td>National Average</td>
+<td>&nbsp;</td>
+<td>(R*(1+(O/100)/Q)**(S*Q))-R</td>
+<td>1</td>
+<td>$1,000.00</td>
+<td>1.5</td>
+<td>
+<table class="Lang-English">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">Annual Percentage Yield (APY) may change before CD is opened and funded. Penalties that may reduce CD earnings will apply to a withdrawal of principal prior to maturity. $500 minimum to open a CD and to earn stated APY. Maximum balance limits apply.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Lang-zhTraditional">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">在 CD 開放和資助之前，年收益率 (APY) 可能會發生變化。可能會減少 CD 收益的處罰將適用於在到期前提取本金。最低 500 美元可打開 CD 並賺取規定的 APY。適用最大餘額限制。 </p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>2 year</td>
+<td>CTBC</td>
+<td>3.90%</td>
+<td>(R*(1+(C/100)/Q)**(S*Q))-R</td>
+<td>Chase</td>
+<td>0.01%</td>
+<td>(R*(1+(F/100)/Q)**(S*Q))-R</td>
+<td>Citibank</td>
+<td>2.00%</td>
+<td>(R*(1+(I/100)/Q)**(S*Q))-R</td>
+<td>Bank of America</td>
+<td>0.03%</td>
+<td>(R*(1+(L/100)/Q)**(S*Q))-R</td>
+<td>National Average</td>
+<td>0.77%</td>
+<td>(R*(1+(O/100)/Q)**(S*Q))-R</td>
+<td>1</td>
+<td>$1,000.00</td>
+<td>2</td>
+<td>
+<table class="Lang-English">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">Annual Percentage Yield (APY) may change before CD is opened and funded. Penalties that may reduce CD earnings will apply to a withdrawal of principal prior to maturity. $500 minimum to open a CD and to earn stated APY. Maximum balance limits apply.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Lang-zhTraditional">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">在 CD 開放和資助之前，年收益率 (APY) 可能會發生變化。可能會減少 CD 收益的處罰將適用於在到期前提取本金。最低 500 美元可打開 CD 並賺取規定的 APY。適用最大餘額限制。 </p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>3 year</td>
+<td>CTBC</td>
+<td>3.50%</td>
+<td>(R*(1+(C/100)/Q)**(S*Q))-R</td>
+<td>Chase</td>
+<td>0.01%</td>
+<td>(R*(1+(F/100)/Q)**(S*Q))-R</td>
+<td>Citibank</td>
+<td>2.00%</td>
+<td>(R*(1+(I/100)/Q)**(S*Q))-R</td>
+<td>Bank of America</td>
+<td>0.03%</td>
+<td>(R*(1+(L/100)/Q)**(S*Q))-R</td>
+<td>National Average</td>
+<td>0.77%</td>
+<td>(R*(1+(O/100)/Q)**(S*Q))-R</td>
+<td>1</td>
+<td>$1,000.00</td>
+<td>3</td>
+<td>
+<table class="Lang-English">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">Annual Percentage Yield (APY) may change before CD is opened and funded. Penalties that may reduce CD earnings will apply to a withdrawal of principal prior to maturity. $500 minimum to open a CD and to earn stated APY. Maximum balance limits apply.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Lang-zhTraditional">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">在 CD 開放和資助之前，年收益率 (APY) 可能會發生變化。可能會減少 CD 收益的處罰將適用於在到期前提取本金。最低 500 美元可打開 CD 並賺取規定的 APY。適用最大餘額限制。</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>4 year</td>
+<td>CTBC</td>
+<td>3.50%</td>
+<td>(R*(1+(C/100)/Q)**(S*Q))-R</td>
+<td>Chase</td>
+<td>0.01%</td>
+<td>(R*(1+(F/100)/Q)**(S*Q))-R</td>
+<td>Citibank</td>
+<td>2.00%</td>
+<td>(R*(1+(I/100)/Q)**(S*Q))-R</td>
+<td>Bank of America</td>
+<td>0.03%</td>
+<td>(R*(1+(L/100)/Q)**(S*Q))-R</td>
+<td>National Average</td>
+<td>0.73%</td>
+<td>(R*(1+(O/100)/Q)**(S*Q))-R</td>
+<td>1</td>
+<td>$1,000.00</td>
+<td>4</td>
+<td>
+<table class="Lang-English">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">Annual Percentage Yield (APY) may change before CD is opened and funded. Penalties that may reduce CD earnings will apply to a withdrawal of principal prior to maturity. $500 minimum to open a CD and to earn stated APY. Maximum balance limits apply.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Lang-zhTraditional">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">在 CD 開放和資助之前，年收益率 (APY) 可能會發生變化。可能會減少 CD 收益的處罰將適用於在到期前提取本金。最低 500 美元可打開 CD 並賺取規定的 APY。適用最大餘額限制。</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>5 year</td>
+<td>CTBC</td>
+<td>3.50%</td>
+<td>(R*(1+(C/100)/Q)**(S*Q))-R</td>
+<td>Chase</td>
+<td>0.01%</td>
+<td>(R*(1+(F/100)/Q)**(S*Q))-R</td>
+<td>Citibank</td>
+<td>2.00%</td>
+<td>(R*(1+(I/100)/Q)**(S*Q))-R</td>
+<td>Bank of America</td>
+<td>0.03%</td>
+<td>(R*(1+(L/100)/Q)**(S*Q))-R</td>
+<td>National Average</td>
+<td>0.83%</td>
+<td>(R*(1+(O/100)/Q)**(S*Q))-R</td>
+<td>1</td>
+<td>$1,000.00</td>
+<td>5</td>
+<td>
+<table class="Lang-English">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">Annual Percentage Yield (APY) may change before CD is opened and funded. Penalties that may reduce CD earnings will apply to a withdrawal of principal prior to maturity. $500 minimum to open a CD and to earn stated APY. Maximum balance limits apply.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Lang-zhTraditional">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">在 CD 開放和資助之前，年收益率 (APY) 可能會發生變化。可能會減少 CD 收益的處罰將適用於在到期前提取本金。最低 500 美元可打開 CD 並賺取規定的 APY。適用最大餘額限制。 Z&agrave;i CD kāif&agrave;ng h&eacute; zīzh&ugrave; zhīqi&aacute;n, ni&aacute;n shōuy&igrave; lǜ (APY) kěn&eacute;ng hu&igrave; fāshēng bi&agrave;nhu&agrave;. Kěn&eacute;ng hu&igrave; jiǎnshǎo CD shōuy&igrave; de chǔf&aacute; jiāng sh&igrave;y&ograve;ng y&uacute; z&agrave;i d&agrave;o q&iacute; qi&aacute;n t&iacute;qǔ běn jīn. Zu&igrave;dī 500 měiyu&aacute;n kě dǎkāi CD b&igrave;ng zhu&agrave;n qǔ guīd&igrave;ng de APY. Sh&igrave;y&ograve;ng zu&igrave;d&agrave; y&uacute;'&eacute; xi&agrave;nzh&igrave;.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>6 year</td>
+<td>CTBC</td>
+<td>3.50%</td>
+<td>(R*(1+(C/100)/Q)**(S*Q))-R</td>
+<td>Chase</td>
+<td>0.01%</td>
+<td>(R*(1+(F/100)/Q)**(S*Q))-R</td>
+<td>Citibank</td>
+<td>&nbsp;</td>
+<td>(R*(1+(I/100)/Q)**(S*Q))-R</td>
+<td>Bank of America</td>
+<td>0.03%</td>
+<td>(R*(1+(L/100)/Q)**(S*Q))-R</td>
+<td>National Average</td>
+<td>&nbsp;</td>
+<td>(R*(1+(O/100)/Q)**(S*Q))-R</td>
+<td>1</td>
+<td>$1,100.00</td>
+<td>6</td>
+<td>
+<table class="Lang-English">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">Annual Percentage Yield (APY) may change before CD is opened and funded. Penalties that may reduce CD earnings will apply to a withdrawal of principal prior to maturity. $500 minimum to open a CD and to earn stated APY. Maximum balance limits apply.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Lang-zhTraditional">
+<tbody>
+<tr>
+<td>
+<p class="Disclaimer">在 CD 開放和資助之前，年收益率 (APY) 可能會發生變化。可能會減少 CD 收益的處罰將適用於在到期前提取本金。最低 500 美元可打開 CD 並賺取規定的 APY。適用最大餘額限制。 Z&agrave;i CD kāif&agrave;ng h&eacute; zīzh&ugrave; zhīqi&aacute;n, ni&aacute;n shōuy&igrave; lǜ (APY) kěn&eacute;ng hu&igrave; fāshēng bi&agrave;nhu&agrave;. Kěn&eacute;ng hu&igrave; jiǎnshǎo CD shōuy&igrave; de chǔf&aacute; jiāng sh&igrave;y&ograve;ng y&uacute; z&agrave;i d&agrave;o q&iacute; qi&aacute;n t&iacute;qǔ běn jīn. Zu&igrave;dī 500 měiyu&aacute;n kě dǎkāi CD b&igrave;ng zhu&agrave;n qǔ guīd&igrave;ng de APY. Sh&igrave;y&ograve;ng zu&igrave;d&agrave; y&uacute;'&eacute; xi&agrave;nzh&igrave;.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>

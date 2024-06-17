@@ -1,0 +1,4 @@
+﻿<h1>Notice</h1>
+<h2>Email is not secure.</h2>
+<p>Please do not send any personal information such as social security numbers, account numbers, passwords, etc. <span class="Missing">Bank Name</span> does not accept any liability for any losses or damages resulting from the use of email as a means of communication.</p>
+<p>Click Accept to proceed or Cancel to go back to the previous page.</p>

@@ -1,0 +1,67 @@
+﻿<table class="Subsection-Table scroll-trigger scroll-to scroll-active">
+<tbody>
+<tr>
+<td><h1>Checking Accounts</h1>
+<p>
+We offer a variety of personal checking accounts. Take a look at the features and choose the one that best fits your needs.</p>
+<h2>All of our Personal Checking Accounts include:</h2>
+<ul class="List-Checkmark">
+<li>Free Online Banking</li>
+<li>Free Bill Pay</li>
+<li>Free Mobile Banking</li>
+<li>Free eStatements</li>
+<li>Unlimited Check Writing</li>
+</ul>
+<p>Take a look at our <a href="#Compare-Accounts">Comparison Chart </a> for a side by side view.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Subsection-Table">
+<tbody>
+<tr>
+<td>
+<table class="Table-Grid-Thirds-Panel-Grow">
+<tbody>
+<tr>
+<td>
+<h2>Free Checking</h2>
+<p>Enjoy the advantages of our FREE checking account option with no minimum balance or monthly service fee.</p>
+<h3>Account Details</h3>
+<ul>
+<li>Minimum Opening Deposit: $100</li>
+<li>No Monthly Charges</li>
+<li>No minimum balance</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<h2>Gen Gold* Checking</h2>
+<p>Enjoy the interest bearing advantages of our Gen Gold checking account option with no minimum balance.</p>
+<h3>Account Details</h3>
+<ul>
+<li>Minimum Opening Deposit: $100</li>
+<li>Earns interest</li>
+<li>No minimum balance</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<h2>Ultimate Interest Checking</h2>
+<p>For our clients who have a growing business with a moderate level of account activity.</p>
+<h3>Account Details</h3>
+<ul>
+<li>Minimum Opening Deposit: $100</li>
+<li>Earns interest on daily balances over $1,000</li>
+<li>No minimum balance</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>

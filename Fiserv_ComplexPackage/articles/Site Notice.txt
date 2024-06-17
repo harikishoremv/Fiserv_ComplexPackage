@@ -1,0 +1,12 @@
+﻿<table class="Table-Notice-Bottom" id="Table-Notice-1" bgcolor="#fecc02">
+	<tbody>
+		<tr>
+			<td>
+				<h3 class="fa-exclamation-triangle">Site Notice:</h3>
+				</td>
+				<td>
+				<p>This is where you place your site notice message. Try to phrase it as short as possible. <a href="#">Learn more</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>

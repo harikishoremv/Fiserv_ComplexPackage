@@ -1,0 +1,88 @@
+﻿<table class="Subsection-Table-Text-Left" style="background-image: url(https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.2.0/images/background-hands-together.jpg);">
+<tbody>
+<tr>
+<td>
+<h1>Meet the Team</h1>
+<p>Our bank is dedicated to providing you with a&nbsp;complete banking experience. Our team goes out of their way to help make sure all of your banking needs are met.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="Subsection-Table">
+    <tbody>
+        <tr>
+            <td>
+                <h2>Board of Directors</h2>
+                <table class="Table-Grid-Thirds-Panel-Team">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p><img src="https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.2.0/images/image-team-1.jpg" alt="Placeholder Team 1" border="0" /></p>
+                                <h3>John Sutter</h3>
+                                <p>Chairman</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><img src="https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.2.0/images/image-team-3.jpg" alt="Placeholder Team 3" border="0" /></p>
+                                <h3>Anastasia Taylor</h3>
+                                <p>Vice Chairman</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><img src="https://whstage1.secureinternetbank.com/Code-Library/Sample-Pages/Sample-Pages-1.2.0/images/image-team-2.jpg" alt="Placeholder Team 2" border="0" /></p>
+                                <h3>Patrick Miller</h3>
+                                <p>President / CEO</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Our Team</h2>
+                <table class="Table-Grid-Panel-Grow">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h3>Bank President</h3>
+                                <p><strong>Patrick Miller</strong><br />President / CEO</p>
+                                <h3>Division Managers</h3>
+                                <table style="width: 100%;" class="Table-Grid-Half">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Bernard Lawson<br /></strong>Chief Financial Officer</p>
+                                                <p><strong>Vonda Collingwood</strong><br />Chief Operating Officer</p>
+                                                <p><strong>Theodore Gill<br /></strong>Chief Lending Officer, Commercial Loan Officer</p>
+                                                <p><strong>Mia Fairchild</strong><br />Chief Retail Officer</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Michael Cowden</strong><br />Chief Credit Officer</p>
+                                                <p><strong>Justin Briggs<br /></strong>Marketing Director</p>
+                                                <p><strong>Sandra Glass<br /></strong>Human Resources Director</p>
+                                                <p><strong>Aurora Stanley<br /></strong>Wealth Management Division Manager</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="Subsection-Table-Color1">
+    <tbody>
+        <tr>
+            <td>
+                <h2>Vision Statement</h2>
+                <p>We will be the leading, most trusted, most customer focused, independent provider of financial services to the communities we serve.</p>
+                <h2>Mission Statement</h2>
+                <p>Our mission&nbsp;is to deliver convenient, personalized, community banking services, to help our customers become financially successful and earn an attractive return on investment for our shareholders and staff.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
